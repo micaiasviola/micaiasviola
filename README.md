@@ -34,7 +34,7 @@ I'm a 22 years old developer and coding since I was 17. I love to code and figur
 
 ![snake gif](https://github.com/micaiasviola/micaiasviola/blob/output/github-contribution-grid-snake.svg)
 
-- uses: Platane/snk/svg-only@v3
+ uses: Platane/snk/svg-only@v3
   with:
     github_user_name: ${{ github.repository_owner }}
     outputs: |
