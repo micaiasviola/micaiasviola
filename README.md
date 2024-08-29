@@ -35,4 +35,10 @@ I'm a 22 years old developer and coding since I was 17. I love to code and figur
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight)<p></p>
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&theme=tokyonight)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
+
 
