@@ -4,13 +4,12 @@ Hi 👋 My name is Micaías 🇧🇷
 Full Stack Software Developer
 -----------------------------
 
-I'm a 22 years old developer and coding since I was 17. I love to code and figure it out how to solve deep problems using high-edge tech. My main focus are front and back-end development, making applications that impact the life of thousands of users.
+I'm a 22 years old developer and coding since I was 17. My main focus are front and back-end development.
 
 
 * 🌍  I'm based in São Paulo, Brazil
 * ✉️  You can contact me at [leo.micaias@gmail.com](mailto:leo.micaias@gmail.com)
-* 🚀  I'm currently freelancing for companies as a Full Stack Software Developer
-* 🧠  I'm learning Advanced Javascript
+* 🧠  I'm learning Python
 * 🤝  I'm open to collaborating on projects that have a high impact in peoples lives
 * ⚡  I love sports and my favorite is brazillian football
 
@@ -35,10 +34,5 @@ I'm a 22 years old developer and coding since I was 17. I love to code and figur
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight)<p></p>
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&theme=tokyonight)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  
-  <img alt="github-snake" src="github-snake.svg" />
-</picture>
 
 
