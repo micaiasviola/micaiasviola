@@ -4,12 +4,12 @@ Hi 👋 My name is Micaías 🇧🇷
 Full Stack Software Developer
 -----------------------------
 
-I'm a 22 years old developer and coding since I was 17. My main focus are front and back-end development.
+Hello, my name is Mícaias, I am in the second semester of Systems Analysis and Development, and I currently program in C and Python.
 
 
 * 🌍  I'm based in São Paulo, Brazil
 * ✉️  You can contact me at [leo.micaias@gmail.com](mailto:leo.micaias@gmail.com)
-* 🧠  I'm learning Python
+* 🧠  I'm learning type script 
 * 🤝  I'm open to collaborating on projects that have a high impact in peoples lives
 * ⚡  I love sports and my favorite is brazillian football
 
