@@ -28,9 +28,11 @@ Hello, my name is Mícaias, I am in the second semester of Systems Analysis and 
 ### Socials
 
 <p align="left"> <a href="https://discord.com/users/355140955168440330" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a> <a href="https://https://github.com/micaiasviola" target="_blank" rel="noreferrer"><img src="https://www.svgrepo.com/show/440961/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/micaias-viola-12857920a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="https://www.instagram.com/mike_sktr" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a></p>
+<div>
+  ![Micaias Viola GitHub stats](https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight)<p></p>
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&theme=tokyonight)
+</div>
 
-![Micaias Viola GitHub stats](https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight)<p></p>
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&theme=tokyonight)
 
 
 
