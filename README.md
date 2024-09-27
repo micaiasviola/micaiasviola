@@ -31,8 +31,7 @@ Hello, my name is Mícaias, I am in the second semester of Systems Analysis and 
 
   ![Micaias Viola GitHub stats](https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&line_height=55&theme=tokyonight&card_width=500px)
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=donut-vertical&langs_count=20&theme=tokyonight&card_width=300px)
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=User-Autentication-in-C)](https://github.com/micaiasviola/User-autentication-in-C)
-
+  <!--[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=User-Autentication-in-C)](https://github.com/micaiasviola/User-autentication-in-C)-->
 
 
 
