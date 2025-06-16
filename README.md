@@ -1,10 +1,8 @@
 Hi 👋 My name is Micaías 🇧🇷
 ==========================
 
-My most recent project : https://autoescolamonteiro.netlify.app (for mobile for now)
------------------------------
 
-Hello, my name is Mícaias, I am in the second semester of Systems Analysis and Development, and I currently program in C and Python.
+Hello, my name is Mícaias, I am in the third semester of Systems Analysis and Development, and I currently program in C and Python.
 
 
 * 🌍  I'm based in São Paulo, Brazil
