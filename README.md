@@ -7,7 +7,7 @@ Hello, my name is Mícaias, I am in the third semester of Systems Analysis and D
 
 * 🌍  I'm based in São Paulo, Brazil
 * ✉️  You can contact me at [leo.micaias@gmail.com](mailto:leo.micaias@gmail.com)
-* 🧠  I'm learning Docker
+* 🧠  I'm learning Machine Learning with AI generation
 * 🤝  I'm open to collaborating on projects that have a high impact in peoples lives
 * ⚡  I love sports and my favorite is brazillian football
 
