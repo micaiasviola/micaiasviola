@@ -1,53 +1,73 @@
-Hi 👋 My name is Micaías 🇧🇷
-==========================
+<!-- 🐍 GitHub Contribution Snake no topo centralizado -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake" src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
 
+# Hi 👋 I'm Micaías Viola 🇧🇷
 
-Hello, my name is Mícaias, I am in the third semester of Systems Analysis and Development, and I currently program in C and Python.
+<div align="center">
+  <h2>💻👨‍💻 Coding, Learning & Sharing</h2>
+</div>
 
+---
 
+## 🌍 About Me
+- 📍 Based in São Paulo, Brazil  
+- ✉️ Contact: [leo.micaias@gmail.com](mailto:leo.micaias@gmail.com)  
+- 🧠 Learning Machine Learning and AI Generation  
+- 🤝 Open to collaborating on high-impact projects  
+- ⚡ Sports enthusiast, especially Brazilian football  
 
+---
 
-* 🌍  I'm based in São Paulo, Brazil
-* ✉️  You can contact me at [leo.micaias@gmail.com](mailto:leo.micaias@gmail.com)
-* 🧠  I'm learning Machine Learning with AI generation
-* 🤝  I'm open to collaborating on projects that have a high impact in peoples lives
-* ⚡  I love sports and my favorite is brazillian football
+## 🛠 Skills
 
-### Skills
-
-<p align="left">
+<div align="center">
 <a href="https://www.php.net/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg" width="36" height="36" alt="PHP" /></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="Javascript" /></a>
 <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="36" height="36" alt="C" /></a>
 <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
 <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
 <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
-  <a href="https://www.w3schools.com/cssref" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
+<a href="https://www.w3schools.com/cssref" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
 <a href="https://mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a>
-</p>
+<a href="https://nodejs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="Node.js" /></a>
+<a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="36" height="36" alt="Express" /></a>
+</div>
 
-### Socials
+---
 
-<p align="left"> <a href="https://discord.com/users/355140955168440330" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a> <a href="https://https://github.com/micaiasviola" target="_blank" rel="noreferrer"><img src="https://www.svgrepo.com/show/440961/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/micaias-viola-12857920a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="https://www.instagram.com/mike_sktr" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a></p>
+## 📫 Socials
 
-  ![Micaias Viola GitHub stats](https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&line_height=59&theme=tokyonight&card_width=500px)
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=donut-vertical&langs_count=20&theme=tokyonight&card_width=300px)
-  <!--[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=User-Autentication-in-C)](https://github.com/micaiasviola/User-autentication-in-C)-->
+<div align="center">
+<a href="https://discord.com/users/355140955168440330" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a>
+<a href="https://github.com/micaiasviola" target="_blank" rel="noreferrer"><img src="https://www.svgrepo.com/show/440961/github.svg" width="32" height="32" /></a>
+<a href="https://www.linkedin.com/in/micaias-viola-12857920a" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a>
+<a href="https://www.instagram.com/mike_sktr" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a>
+</div>
 
+---
 
+## 📊 GitHub Stats
 
-Confira alguns dos meus projetos favoritos:
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight&card_width=300&line_height=40" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=donut-vertical&langs_count=20&theme=tokyonight&card_width=300&line_height=40" />
+</div>
 
-| Projeto | Linguagem | Descrição |
-|---------|-----------|-----------|
-| [classifyemail](https://github.com/micaiasviola/classifyemail) | Python | Repositório de classificação de e-mails com IA em Python |
-| [UserAutentication-in-PHP](https://github.com/micaiasviola/UserAutentication-in-PHP) | PHP | Sistema de autenticação de usuários em PHP |
-| [User-autentication-in-C](https://github.com/micaiasviola/User-autentication-in-C) | C | Repositório sobre autenticação em C |
-| [HelpBox](https://github.com/micaiasviola/HelpBox) | — | Sistema interno de cadastro para chamados de empresas |
+---
 
+## ⭐ Projects
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg" />
-  <img alt="Snake animation" src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg" />
-</picture>
+<div align="center">
+
+[![classifyemail](https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=classifyemail&theme=tokyonight)](https://github.com/micaiasviola/classifyemail)
+[![UserAutentication-in-PHP](https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=UserAutentication-in-PHP&theme=tokyonight)](https://github.com/micaiasviola/UserAutentication-in-PHP)
+[![User-autentication-in-C](https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=User-autentication-in-C&theme=tokyonight)](https://github.com/micaiasviola/User-autentication-in-C)
+[![HelpBox](https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=HelpBox&theme=tokyonight)](https://github.com/micaiasviola/HelpBox)
+
+</div>
