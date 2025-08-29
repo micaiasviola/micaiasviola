@@ -77,9 +77,9 @@
 
 <div align="center">
 
-[![classifyemail](https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=classifyemail&theme=tokyonight)](https://github.com/micaiasviola/classifyemail)
-[![UserAutentication-in-PHP](https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=UserAutentication-in-PHP&theme=tokyonight)](https://github.com/micaiasviola/UserAutentication-in-PHP)
-[![User-autentication-in-C](https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=User-autentication-in-C&theme=tokyonight)](https://github.com/micaiasviola/User-autentication-in-C)
-[![HelpBox](https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=HelpBox&theme=tokyonight)](https://github.com/micaiasviola/HelpBox)
+[![classifyemail](https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=classifyemail&theme=tokyonight&cache_seconds=0)](https://github.com/micaiasviola/classifyemail)
+[![UserAutentication-in-PHP](https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=UserAutentication-in-PHP&theme=tokyonight&cache_seconds=0)](https://github.com/micaiasviola/UserAutentication-in-PHP)
+[![User-autentication-in-C](https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=User-autentication-in-C&theme=tokyonight&cache_seconds=0)](https://github.com/micaiasviola/User-autentication-in-C)
+[![HelpBox](https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=HelpBox&theme=tokyonight)](https://github.com/micaiasviola/HelpBox&cache_seconds=0)
 
 </div>
