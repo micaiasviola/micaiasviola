@@ -46,10 +46,8 @@ Confira alguns dos meus projetos favoritos:
 | [HelpBox](https://github.com/micaiasviola/HelpBox) | — | Sistema interno de cadastro para chamados de empresas |
 
 
-![Snake animation](https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg)
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg" />
 </picture>
