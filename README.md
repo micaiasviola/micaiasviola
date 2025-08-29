@@ -55,7 +55,7 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight&card_width=300&line_height=40" />
+  <img src="https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight&card_width=300&line_height=59" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=donut-vertical&langs_count=20&theme=tokyonight&card_width=300&line_height=40" />
 </div>
 
