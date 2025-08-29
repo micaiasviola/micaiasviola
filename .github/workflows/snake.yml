@@ -10,7 +10,6 @@ on:
 
 jobs:
   build:
-    name: Generate Snake Animation
     runs-on: ubuntu-latest
 
     steps:
@@ -25,16 +24,10 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push generated files
+      - name: Commit generated files
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions
           author_email: actions@github.com
-          message: "🐍 update snake animation"
+          message: "🐍 Update snake animation"
           add: "dist/*"
-
-      - name: Upload snake animation as artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: snake-animation
-          path: dist
