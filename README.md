@@ -34,5 +34,12 @@ Hello, my name is Mícaias, I am in the third semester of Systems Analysis and D
 
 
 
+Confira alguns dos meus projetos favoritos:
 
+| Projeto | Linguagem | Descrição |
+|---------|-----------|-----------|
+| [classifyemail](https://github.com/micaiasviola/classifyemail) | Python | Repositório de classificação de e-mails com IA em Python |
+| [UserAutentication-in-PHP](https://github.com/micaiasviola/UserAutentication-in-PHP) | PHP | Sistema de autenticação de usuários em PHP |
+| [User-autentication-in-C](https://github.com/micaiasviola/User-autentication-in-C) | C | Repositório sobre autenticação em C |
+| [HelpBox](https://github.com/micaiasviola/HelpBox) | — | Sistema interno de cadastro para chamados de empresas |
 
