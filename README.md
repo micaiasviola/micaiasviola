@@ -4,7 +4,7 @@ Hi 👋 My name is Micaías 🇧🇷
 
 Hello, my name is Mícaias, I am in the third semester of Systems Analysis and Development, and I currently program in C and Python.
 
-![Snake animation](https://raw.githubusercontent.com/micaiasviola/micaiasviola/output/dist/github-contribution-grid-snake.svg)
+
 
 * 🌍  I'm based in São Paulo, Brazil
 * ✉️  You can contact me at [leo.micaias@gmail.com](mailto:leo.micaias@gmail.com)
