@@ -37,6 +37,18 @@
 <a href="https://mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a>
 <a href="https://nodejs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="Node.js" /></a>
 <a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="36" height="36" alt="Express" /></a>
+
+</div>
+
+---
+
+## 🏆 Achievements & Badges
+
+<div align="center">
+<img src="https://img.shields.io/badge/GitHub-Achiever-blue?style=for-the-badge&logo=github" />
+<img src="https://img.shields.io/badge/Hacktoberfest-2025-brightgreen?style=for-the-badge&logo=hacktoberfest" />
+<img src="https://img.shields.io/badge/WakaTime-Coding-purple?style=for-the-badge&logo=wakati.me" />
+
 </div>
 
 ---
