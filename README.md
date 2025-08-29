@@ -6,6 +6,7 @@ Hello, my name is Mícaias, I am in the third semester of Systems Analysis and D
 
 
 
+
 * 🌍  I'm based in São Paulo, Brazil
 * ✉️  You can contact me at [leo.micaias@gmail.com](mailto:leo.micaias@gmail.com)
 * 🧠  I'm learning Machine Learning with AI generation
@@ -44,3 +45,11 @@ Confira alguns dos meus projetos favoritos:
 | [User-autentication-in-C](https://github.com/micaiasviola/User-autentication-in-C) | C | Repositório sobre autenticação em C |
 | [HelpBox](https://github.com/micaiasviola/HelpBox) | — | Sistema interno de cadastro para chamados de empresas |
 
+
+![Snake animation](https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
