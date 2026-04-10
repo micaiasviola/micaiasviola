@@ -114,11 +114,11 @@
 <div align="center">
 
 <a href="https://github.com/micaiasviola">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b26&text_color=c9cacc&icon_color=6dd5ed&hide=prs" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
 </a>
 
 <a href="https://github.com/micaiasviola">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26&text_color=c9cacc" alt="Top Languages"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
 </a>
 
 </div>
@@ -130,19 +130,19 @@
 <div align="center">
 
 <a href="https://github.com/micaiasviola/classifyemail">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=classifyemail&theme=tokyonight&bg_color=1a1b26&text_color=c9cacc&hide_border=true" alt="ClassifyEmail"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=classifyemail&theme=tokyonight&hide_border=true" alt="ClassifyEmail"/>
 </a>
 
 <a href="https://github.com/micaiasviola/UserAutentication-in-PHP">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=UserAutentication-in-PHP&theme=tokyonight&bg_color=1a1b26&text_color=c9cacc&hide_border=true" alt="User Auth PHP"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=UserAutentication-in-PHP&theme=tokyonight&hide_border=true" alt="User Auth PHP"/>
 </a>
 
 <a href="https://github.com/micaiasviola/User-autentication-in-C">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=User-autentication-in-C&theme=tokyonight&bg_color=1a1b26&text_color=c9cacc&hide_border=true" alt="User Auth C"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=User-autentication-in-C&theme=tokyonight&hide_border=true" alt="User Auth C"/>
 </a>
 
 <a href="https://github.com/micaiasviola/HelpBox">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=HelpBox&theme=tokyonight&bg_color=1a1b26&text_color=c9cacc&hide_border=true" alt="HelpBox"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=HelpBox&theme=tokyonight&hide_border=true" alt="HelpBox"/>
 </a>
 
 </div>
