@@ -58,10 +58,15 @@
 ---
 ## GitHub Stats
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight)
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight&locale=pt-BR" alt="GitHub stats" style="max-width:100%;width:460px;" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&theme=tokyonight" alt="Top languages" style="max-width:100%;width:320px;margin-top:12px;" />
+
+</div>
 
 ---
-
 ## Featured Projects
 
 - [Projeto A](https://github.com/micaiasviola/projeto-a) • Breve descrição
