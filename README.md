@@ -75,3 +75,33 @@
 <!-- Snake module (kept commented as requested)
 <img src="dist/github-contribution-grid-snake.svg" alt="snake" />
 -->
+
+## Featured Projects
+
+<div align="center">
+
+<div style="display:flex;flex-wrap:wrap;gap:18px;justify-content:center;max-width:920px;margin:0 auto;">
+
+<div style="flex:1;min-width:220px;max-width:320px;border-radius:12px;padding:14px;text-align:left;">
+### <a href="https://github.com/micaiasviola/projeto-a">Projeto A</a>
+<p>Breve descrição — foco em visualização e performance.</p>
+<p><a href="https://github.com/micaiasviola/projeto-a">Repository</a> • <a href="#">Live</a></p>
+</div>
+
+<div style="flex:1;min-width:220px;max-width:320px;border-radius:12px;padding:14px;text-align:left;">
+### <a href="https://github.com/micaiasviola/projeto-b">Projeto B</a>
+<p>Breve descrição — bibliotecas reutilizáveis e design systems.</p>
+<p><a href="https://github.com/micaiasviola/projeto-b">Repository</a> • <a href="#">Demo</a></p>
+</div>
+
+<div style="flex:1;min-width:220px;max-width:320px;border-radius:12px;padding:14px;text-align:left;">
+### <a href="https://github.com/micaiasviola/projeto-c">Projeto C</a>
+<p>Breve descrição — automações e integrações CI/CD.</p>
+<p><a href="https://github.com/micaiasviola/projeto-c">Repository</a> • <a href="#">Docs</a></p>
+</div>
+
+</div>
+
+</div>
+
+---
