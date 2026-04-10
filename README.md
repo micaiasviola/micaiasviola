@@ -34,7 +34,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" />
-  <img alt="Isometric Contribution Calendar" src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" style="max-width:100%;width:480px;height:auto;" />
+  <img alt="Isometric Contribution Calendar" src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" style="max-width:100%;width:480px;height:auto;transform:translateY(130px);" />
 </picture>
 
 </div>
