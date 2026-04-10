@@ -8,17 +8,17 @@
 ### Contributions calendar
 
 - 🔎 Quick overview of recent activity
-- 📌 Current streak: *auto-generated in SVG*
-- ⭐ Best streak: *auto-generated in SVG*
+- 📌 Current streak: 6 days
+- ⭐ Best streak: 77 days
 - 📅 Period: last 180 days
 
 #### Commits streaks
-- Current streak: 1 day
-- Best streak: 7 days
+- Current streak: 6 days
+- Best streak: 77 days
 
 #### Commits per day
 - Highest in a day at: 40
-- Average per day at: ~1.65
+- Average per day at: ~1.4 per day
 
 </div>
 
