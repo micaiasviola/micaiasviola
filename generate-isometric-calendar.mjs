@@ -109,7 +109,7 @@ function generateSVG(weeks, stats, duration) {
   const reference = Math.max(...weeks.flatMap(w => w.contributionDays.map(d => d.contributionCount || 0)), 1);
 
   let svg = `<?xml version="1.0" encoding="utf-8"?>\n`;
-  svg += `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="margin-top: -130px;" viewBox="0 0 480 ${viewBoxHeight}">`;
+  svg += `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 ${viewBoxHeight}">`;
   
   // Filters for 3D shading
   svg += `\n  <defs>`;
