@@ -8,8 +8,8 @@
 
 |  |  |
 |:---:|:---:|
-| ![Snake](https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg) | ![Isometric Calendar](https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg) |
-| 🐍 **Commits** | 📅 **Calendar**<br/><br/>**🔎 Quick Stats**<br/>📌 Streak: **6 dias**<br/>⭐ Best: **107 dias**<br/>⚡ Média: **~1.6/dia** |
+| ![Snake](https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake-dark.svg) | ![Isometric Calendar](https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg) |
+| 🐍 **Commits** | 📅 **Calendar (12 months)**<br/><br/>**🔎 Quick Stats**<br/>📌 Streak: **6 dias**<br/>⭐ Best: **107 dias**<br/>⚡ Média: **~1.6/dia** |
 
 ---
 
