@@ -1,8 +1,6 @@
-<!-- Profile README - Polished -->
+# 👋 Olá, sou Micaias Viola
 
 <div align="center">
-
-# Olá, sou Micaias Viola 👋
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake-dark.svg" />
@@ -15,30 +13,26 @@
 
 ---
 
-<div align="center">
-
 ## 📊 Contribution Insights
 
-<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:24px;align-items:flex-start;max-width:920px;margin:0 auto;">
+<div align="center" style="display:flex;flex-wrap:wrap;justify-content:center;gap:24px;max-width:920px;margin:0 auto;">
 
-<div style="flex:1;min-width:240px;max-width:360px;text-align:left;padding:8px 12px;">
+<div style="flex:1;min-width:240px;max-width:340px;text-align:left;">
 
 ### 🔎 Quick Stats
 
-- 📌 Current streak: 6 days
-- ⭐ Best streak: 80 days
-- ⚡ Average per day: ~1.4
+- 📌 Streak: **6 dias**
+- ⭐ Best: **80 dias**  
+- ⚡ Média: **~1.4/dia**
 
 </div>
 
-<div style="flex:1;min-width:240px;max-width:560px;text-align:center;padding:8px 12px;">
+<div style="flex:1;min-width:260px;max-width:520px;text-align:center;">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" />
-  <img alt="Isometric Contribution Calendar" src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" style="max-width:100%;width:480px;height:auto;" />
+  <img alt="Isometric Calendar" src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" style="width:480px;height:auto;max-width:100%;" />
 </picture>
-
-</div>
 
 </div>
 
@@ -71,27 +65,39 @@ Engenheiro de software com foco em front-end e visualização de dados. Gosto de
 <div style="display:flex;flex-wrap:wrap;gap:18px;justify-content:center;max-width:920px;margin:0 auto;">
 
 <div style="flex:1;min-width:220px;max-width:320px;border-radius:12px;padding:14px;text-align:left;">
-### <a href="https://github.com/micaiasviola/projeto-a">Projeto A</a>
-<p>Breve descrição — foco em visualização e performance.</p>
-<p><a href="https://github.com/micaiasviola/projeto-a">Repository</a> • <a href="#">Live</a></p>
+
+### Projeto A
+
+Breve descrição — foco em visualização e performance.
+
+[Repository](https://github.com/micaiasviola/projeto-a) • [Live](#)
+
 </div>
 
 <div style="flex:1;min-width:220px;max-width:320px;border-radius:12px;padding:14px;text-align:left;">
-### <a href="https://github.com/micaiasviola/projeto-b">Projeto B</a>
-<p>Breve descrição — bibliotecas reutilizáveis e design systems.</p>
-<p><a href="https://github.com/micaiasviola/projeto-b">Repository</a> • <a href="#">Demo</a></p>
+
+### Projeto B
+
+Breve descrição — bibliotecas reutilizáveis e design systems.
+
+[Repository](https://github.com/micaiasviola/projeto-b) • [Demo](#)
+
 </div>
 
 <div style="flex:1;min-width:220px;max-width:320px;border-radius:12px;padding:14px;text-align:left;">
-### <a href="https://github.com/micaiasviola/projeto-c">Projeto C</a>
-<p>Breve descrição — automações e integrações CI/CD.</p>
-<p><a href="https://github.com/micaiasviola/projeto-c">Repository</a> • <a href="#">Docs</a></p>
-</div>
+
+### Projeto C
+
+Breve descrição — automações e integrações CI/CD.
+
+[Repository](https://github.com/micaiasviola/projeto-c) • [Docs](#)
 
 </div>
 
 </div>
 
-<!-- Snake module (kept commented as requested)
+</div>
+
+<!-- 🐍 Snake animation (kept commented)
 <img src="dist/github-contribution-grid-snake.svg" alt="snake" />
 -->
