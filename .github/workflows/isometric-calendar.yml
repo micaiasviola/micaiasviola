@@ -38,4 +38,4 @@ jobs:
           author_name: github-actions
           author_email: actions@github.com
           message: "📅 Update isometric calendar"
-          add: "dist/isometric-calendar.svg README.md"
+          add: "dist/isometric-calendar.svg"
