@@ -47,10 +47,15 @@
 
 ## About me
 
-Engenheiro de software com foco em front-end e visualização de dados. Gosto de transformar métricas em experiências visuais.
+<div align="center">
+
+<p>Engenheiro de software Front‑End com foco em visualização de dados, UX e criação de experiências interativas. Trabalho com React, TypeScript, Node.js e SVG/CANVAS para visualizações avançadas.</p>
+
+<p><strong>Interesses:</strong> Data viz, performance, design systems, acessibilidade.</p>
+
+</div>
 
 ---
-
 ## GitHub Stats
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight)
