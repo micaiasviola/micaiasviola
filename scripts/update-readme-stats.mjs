@@ -1,13 +1,17 @@
 #!/usr/bin/env node
 import { execSync } from 'child_process';
+import fs from 'fs';
+import path from 'path';
 
 (async function main(){
   try {
-    const svgUrl = 'https://raw.githubusercontent.com/micaiasviola/micaiasviola/main/dist/isometric-calendar.svg';
-    console.log('Fetching SVG from', svgUrl);
-    const svgResp = await fetch(svgUrl);
-    if (!svgResp.ok) throw new Error('Failed to fetch SVG: ' + svgResp.status);
-    const svg = await svgResp.text();
+    // Read SVG locally (it was just generated)
+    const svgPath = './dist/isometric-calendar.svg';
+    console.log('Reading SVG from', svgPath);
+    if (!fs.existsSync(svgPath)) {
+      throw new Error(`SVG not found at ${svgPath}`);
+    }
+    const svg = fs.readFileSync(svgPath, 'utf8');
 
     // Try to extract named stats first
     const streakMatch = svg.match(/Streak:\s*([0-9]+)\s*days/i);
