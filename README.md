@@ -26,7 +26,7 @@
 ### 🔎 Quick Stats
 
 - 📌 Current streak: 6 days
-- ⭐ Best streak: 77 days
+- ⭐ Best streak: 80 days
 - ⚡ Average per day: ~1.4
 
 </div>
