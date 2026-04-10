@@ -44,10 +44,22 @@ import { execSync } from 'child_process';
 
     console.log('Parsed stats -> streak:', streak, 'max:', max, 'avg:', avg);
 
-    // Fetch README from GitHub using gh api (requires gh CLI authenticated)
-    console.log('Fetching README via gh api');
-    const readmeJsonRaw = execSync('gh api repos/micaiasviola/micaiasviola/contents/README.md', { encoding: 'utf8' });
-    const readmeJson = JSON.parse(readmeJsonRaw);
+    // Fetch README from GitHub via REST API using token (works in Actions)
+    console.log('Fetching README via GitHub REST API');
+    const readmeApiUrl = 'https://api.github.com/repos/micaiasviola/micaiasviola/contents/README.md';
+    const readmeToken = process.env.GITHUB_TOKEN || '';
+    const readmeRes = await fetch(readmeApiUrl, {
+      headers: {
+        'Authorization': `token ${readmeToken}`,
+        'User-Agent': 'update-readme-stats-script',
+        'Accept': 'application/vnd.github.v3+json'
+      }
+    });
+    if (!readmeRes.ok) {
+      const body = await readmeRes.text();
+      throw new Error('Failed to fetch README: ' + readmeRes.status + ' ' + body);
+    }
+    const readmeJson = await readmeRes.json();
     const sha = readmeJson.sha;
     let content = Buffer.from(readmeJson.content, 'base64').toString('utf8');
 
