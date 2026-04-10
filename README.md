@@ -1,54 +1,14 @@
 # 👋 Olá, sou Micaias Viola
 
-<div align="center">
-
 **Desenvolvedor Full-Stack • Frontend Engineer • Criador de soluções elegantes**
-
-</div>
 
 ---
 
 ## 📊 Contribution Insights
 
-<div align="center" style="display:flex;flex-wrap:wrap;justify-content:center;gap:16px;max-width:100%;margin:0 auto;">
-
-<!-- Snake Animation -->
-<div style="flex:0 0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake-dark.svg" />
-  <img alt="Snake" src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg" style="width:100%;height:auto;max-width:280px;" />
-</picture>
-
-</div>
-
-<!-- Stats & Calendar Container -->
-<div style="flex:1;min-width:320px;max-width:580px;display:flex;flex-direction:column;gap:16px;">
-
-<!-- Quick Stats -->
-<div style="text-align:left;">
-
-### 🔎 Quick Stats
-
-- 📌 Streak: **6 dias**
-- ⭐ Best: **107 dias**  
-- ⚡ Média: **~1.6/dia**
-
-</div>
-
-<!-- Isometric Calendar -->
-<div style="text-align:center;display:flex;justify-content:center;">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" />
-  <img alt="Isometric Calendar" src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" style="width:100%;height:auto;max-width:480px;" />
-</picture>
-
-</div>
-
-</div>
-
-</div>
+| Snake Animation | Isometric Calendar & Stats |
+|:---:|:---:|
+| ![Snake](https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg) | <div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" /><img alt="Isometric Calendar" src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" style="width:100%;height:auto;max-width:480px;" /></picture></div><br/>**🔎 Quick Stats**<br/>- 📌 Streak: **6 dias**<br/>- ⭐ Best: **107 dias**<br/>- ⚡ Média: **~1.6/dia** |
 
 ---
 
