@@ -19,7 +19,7 @@ if (!GITHUB_TOKEN || !GITHUB_USER) {
   process.exit(1);
 }
 
-const GRAPHQL_QUERY = query IsocalendarCalendar($login:String!, $from:DateTime!, $to:DateTime!) {
+const GRAPHQL_QUERY = `query IsocalendarCalendar($login:String!, $from:DateTime!, $to:DateTime!) {
   user(login: $login) {
     calendar: contributionsCollection(from: $from, to: $to) {
       contributionCalendar {
@@ -33,18 +33,18 @@ const GRAPHQL_QUERY = query IsocalendarCalendar($login:String!, $from:DateTime!,
       }
     }
   }
-};
+}`;
 
 async function graphql(variables) {
   const res = await fetch(GRAPHQL_ENDPOINT, {
     method: 'POST',
     headers: {
-      'Authorization': Bearer ${GITHUB_TOKEN},
+      'Authorization': `Bearer ${GITHUB_TOKEN}`,
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({ query: GRAPHQL_QUERY, variables })
   });
-  if (!res.ok) throw new Error(GraphQL: ${res.status});
+  if (!res.ok) throw new Error(`GraphQL: ${res.status}`);
   const data = await res.json();
   if (data.errors) throw new Error(JSON.stringify(data.errors));
   return data.data;
@@ -60,7 +60,7 @@ async function fetchCalendarWeeks(start, end) {
     to.setUTCDate(to.getUTCDate() + 28);
     if (to > end) to = new Date(end);
 
-    console.log(  Fetching: ${from.toISOString().split('T')[0]} to ${to.toISOString().split('T')[0]});
+    console.log(`  Fetching: ${from.toISOString().split('T')[0]} to ${to.toISOString().split('T')[0]}`);
     const d = await graphql({
       login: GITHUB_USER,
       from: from.toISOString(),
@@ -110,28 +110,28 @@ function generateSVG(weeks, stats, duration) {
   // Calculate reference (max contributions) for scaling
   const reference = Math.max(...weeks.flatMap(w => w.contributionDays.map(d => d.contributionCount || 0)), 1);
 
-  let svg = <?xml version="1.0" encoding="utf-8"?>\n;
-  svg += <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 ${viewBoxHeight}">;
+  let svg = `<?xml version="1.0" encoding="utf-8"?>\n`;
+  svg += `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 ${viewBoxHeight}">`;
   
   // Filters for 3D shading
-  svg += \n  <defs>;
-  svg += \n    <filter id="brightness1"><feComponentTransfer><feFuncR type="linear" slope="0.6"/><feFuncG type="linear" slope="0.6"/><feFuncB type="linear" slope="0.6"/></feComponentTransfer></filter>;
-  svg += \n    <filter id="brightness2"><feComponentTransfer><feFuncR type="linear" slope="0.2"/><feFuncG type="linear" slope="0.2"/><feFuncB type="linear" slope="0.2"/></feComponentTransfer></filter>;
-  svg += \n  </defs>;
+  svg += `\n  <defs>`;
+  svg += `\n    <filter id="brightness1"><feComponentTransfer><feFuncR type="linear" slope="0.6"/><feFuncG type="linear" slope="0.6"/><feFuncB type="linear" slope="0.6"/></feComponentTransfer></filter>`;
+  svg += `\n    <filter id="brightness2"><feComponentTransfer><feFuncR type="linear" slope="0.2"/><feFuncG type="linear" slope="0.2"/><feFuncB type="linear" slope="0.2"/></feComponentTransfer></filter>`;
+  svg += `\n  </defs>`;
   
   // Stats text overlay
-  svg += \n  <g style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; font-size: 12px; fill: #24292e;">;
-  svg += \n    <text x="8" y="16">Streak: ${stats.maxStreak || 0} days</text>;
-  svg += \n    <text x="150" y="16">Max: ${stats.maxCount}/day</text>;
-  svg += \n    <text x="280" y="16">Avg: ${stats.avg}</text>;
-  svg += \n  </g>;
+  svg += `\n  <g style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; font-size: 12px; fill: #24292e;">`;
+  svg += `\n    <text x="8" y="16">Streak: ${stats.maxStreak || 0} days</text>`;
+  svg += `\n    <text x="150" y="16">Max: ${stats.maxCount}/day</text>`;
+  svg += `\n    <text x="280" y="16">Avg: ${stats.avg}</text>`;
+  svg += `\n  </g>`;
   
   // Main isometric calendar grid
-  svg += \n  <g transform="scale(4) translate(12, 0)">;
+  svg += `\n  <g transform="scale(4) translate(12, 0)">`;
 
   let i = 0;
   for (const week of weeks) {
-    svg += \n    <g transform="translate(${i * 1.7}, ${i})">;
+    svg += `\n    <g transform="translate(${i * 1.7}, ${i})">`;
     let j = 0;
     for (const day of week.contributionDays) {
       // Ratio determines cube height
@@ -139,27 +139,27 @@ function generateSVG(weeks, stats, duration) {
       const color = day.color || '#ebedf0';
       
       // Day cube positioning
-      svg += \n      <g transform="translate(${j * -1.7}, ${j + (1 - ratio) * size})">;
+      svg += `\n      <g transform="translate(${j * -1.7}, ${j + (1 - ratio) * size})">`;
       
       // Three visible faces of the isometric cube
       // Top face (diamond)
-      svg += \n        <path fill="${color}" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>;
+      svg += `\n        <path fill="${color}" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>`;
       
       // Left face (shaded)
-      svg += \n        <path fill="${color}" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,${2 + ratio * size} 0,${1 + ratio * size} z"/>;
+      svg += `\n        <path fill="${color}" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,${2 + ratio * size} 0,${1 + ratio * size} z"/>`;
       
       // Right face (shaded)
-      svg += \n        <path fill="${color}" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,${1 + ratio * size} 1.7,${2 + ratio * size} z"/>;
+      svg += `\n        <path fill="${color}" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,${1 + ratio * size} 1.7,${2 + ratio * size} z"/>`;
       
-      svg += \n      </g>;
+      svg += `\n      </g>`;
       j++;
     }
-    svg += \n    </g>;
+    svg += `\n    </g>`;
     i++;
   }
 
-  svg += \n  </g>;
-  svg += \n</svg>;
+  svg += `\n  </g>`;
+  svg += `\n</svg>`;
   
   return svg;
 }
@@ -169,7 +169,7 @@ function generateSVG(weeks, stats, duration) {
  */
 (async function main() {
   try {
-    console.log(🚀 Generating isometric calendar (${DURATION})...);
+    console.log(`🚀 Generating isometric calendar (${DURATION})...`);
     
     const now = new Date();
     const start = new Date(now);
@@ -189,22 +189,22 @@ function generateSVG(weeks, stats, duration) {
     
     start.setUTCHours(0, 0, 0, 0);
 
-    console.log(📅 Fetching data from ${start.toISOString().split('T')[0]} to now...);
+    console.log(`📅 Fetching data from ${start.toISOString().split('T')[0]} to now...`);
     const weeks = await fetchCalendarWeeks(start, now);
-    console.log(   ✓ Fetched ${weeks.length} weeks);
+    console.log(`   ✓ Fetched ${weeks.length} weeks`);
 
     const stats = computeStats(weeks);
-    console.log(📊 Statistics:);
-    console.log(   Streak: ${stats.maxStreak} days);
-    console.log(   Max: ${stats.maxCount} contributions/day);
-    console.log(   Avg: ${stats.avg} contributions/day);
-    console.log(   Total: ${stats.total} contributions);
+    console.log(`📊 Statistics:`);
+    console.log(`   Streak: ${stats.maxStreak} days`);
+    console.log(`   Max: ${stats.maxCount} contributions/day`);
+    console.log(`   Avg: ${stats.avg} contributions/day`);
+    console.log(`   Total: ${stats.total} contributions`);
 
     const svg = generateSVG(weeks, stats, DURATION);
     fs.writeFileSync(OUTPUT_FILE, svg, 'utf8');
     
-    console.log(✅ SVG generated: ${OUTPUT_FILE});
-    console.log(   File size: ${(svg.length / 1024 / 1024).toFixed(2)}MB);
+    console.log(`✅ SVG generated: ${OUTPUT_FILE}`);
+    console.log(`   File size: ${(svg.length / 1024 / 1024).toFixed(2)}MB`);
   } catch (err) {
     console.error('❌ Error:', err.message);
     process.exit(1);
