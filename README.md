@@ -6,9 +6,30 @@
 
 ## 📊 Contribution Insights
 
-| Snake Animation | Isometric Calendar & Stats |
-|:---:|:---:|
-| ![Snake](https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg) | <div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" /><img alt="Isometric Calendar" src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" style="width:100%;height:auto;max-width:480px;" /></picture></div><br/>**🔎 Quick Stats**<br/>- 📌 Streak: **6 dias**<br/>- ⭐ Best: **107 dias**<br/>- ⚡ Média: **~1.6/dia** |
+<div align="center" style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: center; max-width: 900px; margin: 0 auto;">
+
+<div>
+
+### 🐍 Commits
+
+![Snake](https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg)
+
+</div>
+
+<div>
+
+### 📅 Calendar
+
+![Isometric Calendar](https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg)
+
+**🔎 Quick Stats**
+- 📌 Streak: **6 dias**
+- ⭐ Best: **107 dias**  
+- ⚡ Média: **~1.6/dia**
+
+</div>
+
+</div>
 
 ---
 
