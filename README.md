@@ -1,4 +1,4 @@
-<!-- Profile README - Professional -->
+<!-- Profile README - Polished -->
 <div align="center">
 
 # Olá, sou Micaias Viola 👋
@@ -18,9 +18,9 @@
 
 ## 📊 Contribution Insights
 
-<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:24px;align-items:center;max-width:920px;margin:0 auto;">
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:24px;align-items:flex-start;max-width:920px;margin:0 auto;">
 
-<div style="flex:1;min-width:240px;max-width:360px;text-align:left;">
+<div style="flex:1;min-width:240px;max-width:360px;text-align:left;padding:8px 12px;">
 
 ### 🔎 Quick Stats
 
@@ -30,7 +30,7 @@
 
 </div>
 
-<div style="flex:1;min-width:240px;max-width:560px;text-align:center;">
+<div style="flex:1;min-width:240px;max-width:560px;text-align:center;padding:8px 12px;">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" />
@@ -47,18 +47,25 @@
 
 ## About me
 
+Engenheiro de software com foco em front-end e visualização de dados. Gosto de transformar métricas em experiências visuais.
+
+---
+
+## GitHub Stats
+
 <div align="center">
 
-<p>Engenheiro de software Front‑End com foco em visualização de dados, UX e criação de experiências interativas. Trabalho com React, TypeScript, Node.js e SVG/CANVAS para visualizações avançadas.</p>
+<img src="https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight" alt="GitHub stats" style="max-width:100%;width:460px;" />
 
-<p><strong>Interesses:</strong> Data viz, performance, design systems, acessibilidade.</p>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&theme=tokyonight" alt="Top languages" style="max-width:100%;width:320px;margin-top:12px;" />
 
 </div>
 
 ---
-\#\#\ GitHub\ Stats\n\n<div\ align="center">\n\n<img\ src="https://github-readme-stats\.vercel\.app/api\?username=micaiasviola&show_icons=true&theme=tokyonight"\ alt="GitHub\ stats"\ style="max-width:100%;width:460px;"\ />\n\n<img\ src="https://github-readme-stats\.vercel\.app/api/top-langs/\?username=micaiasviola&layout=compact&theme=tokyonight"\ alt="Top\ languages"\ style="max-width:100%;width:320px;margin-top:12px;"\ />\n\n</div>\n\n---<!-- Snake module (kept commented as requested)
-<img src="dist/github-contribution-grid-snake.svg" alt="snake" />
--->\n## Featured Projects\n<div align="center">
+
+## Featured Projects
+
+<div align="center">
 
 <div style="display:flex;flex-wrap:wrap;gap:18px;justify-content:center;max-width:920px;margin:0 auto;">
 
@@ -84,4 +91,6 @@
 
 </div>
 
----
+<!-- Snake module (kept commented as requested)
+<img src="dist/github-contribution-grid-snake.svg" alt="snake" />
+-->
