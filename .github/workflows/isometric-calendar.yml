@@ -36,3 +36,4 @@ jobs:
           message: "📅 Update isometric calendar"
           add: "dist/isometric-calendar.svg"
           pull: --rebase --autostash
+
