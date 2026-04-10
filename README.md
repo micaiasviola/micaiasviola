@@ -10,11 +10,13 @@
 
 ---
 
+<!-- SNAKE ANIMATION - commented out. To restore remove this comment.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg" />
   <img alt="contribution" src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg" width="100%" />
 </picture>
+-->
 
 </div>
 
