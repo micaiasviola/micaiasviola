@@ -7,6 +7,14 @@
   </picture>
 </div>
 
+<!-- 📅 Isometric Commit Calendar -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" />
+    <img alt="Isometric Contribution Calendar" src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" />
+  </picture>
+</div>
+
 # Hi 👋 I'm Micaías Viola 🇧🇷
 
 <div align="center">

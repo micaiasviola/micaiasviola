@@ -1,0 +1,38 @@
+name: Generate Isometric Calendar
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Daily at midnight UTC
+  workflow_dispatch:      # Allow manual trigger
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Generate isometric calendar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: micaiasviola
+          OUTPUT_FILE: dist/isometric-calendar.svg
+        run: node generate-isometric-calendar.mjs
+
+      - name: Commit generated files
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions
+          author_email: actions@github.com
+          message: "📅 Update isometric calendar"
+          add: "dist/isometric-calendar.svg"
+          pull: --rebase --autostash
