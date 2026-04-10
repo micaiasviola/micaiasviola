@@ -32,10 +32,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/update-readme-stats.mjs || true
 
-      - name: Commit generated files
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: github-actions
-          author_email: actions@github.com
-          message: "📅 Update isometric calendar"
-          add: "dist/isometric-calendar.svg"

@@ -113,6 +113,56 @@ import path from 'path';
     const out = await res.json();
     console.log('README updated. commit:', out.commit && out.commit.sha);
 
+    // Also commit SVG file
+    try {
+      const svgContent = fs.readFileSync('./dist/isometric-calendar.svg', 'utf8');
+      const svgBase64 = Buffer.from(svgContent, 'utf8').toString('base64');
+      
+      // Get current SVG sha if it exists
+      let svgSha = null;
+      try {
+        const svgInfoRes = await fetch('https://api.github.com/repos/micaiasviola/micaiasviola/contents/dist/isometric-calendar.svg', {
+          headers: {
+            'Authorization': `token ${token}`,
+            'Content-Type': 'application/json',
+            'User-Agent': 'update-readme-stats-script'
+          }
+        });
+        if (svgInfoRes.ok) {
+          const svgInfo = await svgInfoRes.json();
+          svgSha = svgInfo.sha;
+        }
+      } catch (e) {
+        // SVG doesn't exist yet, will create it
+      }
+
+      const svgPayload = {
+        message: '📅 Update isometric calendar SVG',
+        content: svgBase64,
+        ...(svgSha && { sha: svgSha })
+      };
+
+      const svgRes = await fetch('https://api.github.com/repos/micaiasviola/micaiasviola/contents/dist/isometric-calendar.svg', {
+        method: 'PUT',
+        headers: {
+          'Authorization': `token ${token}`,
+          'Content-Type': 'application/json',
+          'User-Agent': 'update-readme-stats-script'
+        },
+        body: JSON.stringify(svgPayload)
+      });
+
+      if (svgRes.ok) {
+        const svgOut = await svgRes.json();
+        console.log('SVG committed. commit:', svgOut.commit && svgOut.commit.sha);
+      } else {
+        const svgError = await svgRes.text();
+        console.warn('Failed to commit SVG:', svgRes.status, svgError);
+      }
+    } catch (svgErr) {
+      console.warn('SVG commit error:', svgErr.message);
+    }
+
     console.log('Done.');
   } catch (err) {
     console.error('Error:', err.message || err);
