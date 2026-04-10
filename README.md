@@ -6,30 +6,10 @@
 
 ## 📊 Contribution Insights
 
-<div align="center" style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: center; max-width: 900px; margin: 0 auto;">
-
-<div>
-
-### 🐍 Commits
-
-![Snake](https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg)
-
-</div>
-
-<div>
-
-### 📅 Calendar
-
-![Isometric Calendar](https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg)
-
-**🔎 Quick Stats**
-- 📌 Streak: **6 dias**
-- ⭐ Best: **107 dias**  
-- ⚡ Média: **~1.6/dia**
-
-</div>
-
-</div>
+|  |  |
+|:---:|:---:|
+| ![Snake](https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake.svg) | ![Isometric Calendar](https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg) |
+| 🐍 **Commits** | 📅 **Calendar**<br/><br/>**🔎 Quick Stats**<br/>📌 Streak: **6 dias**<br/>⭐ Best: **107 dias**<br/>⚡ Média: **~1.6/dia** |
 
 ---
 
