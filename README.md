@@ -34,7 +34,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" />
-  <img alt="Isometric Contribution Calendar" src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" style="max-width:100%;width:480px;height:auto;transform:translateY(130px);" />
+  <img alt="Isometric Contribution Calendar" src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" style="max-width:100%;width:480px;height:auto;" />
 </picture>
 
 </div>
@@ -56,29 +56,9 @@
 </div>
 
 ---
-## GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight&locale=pt-BR" alt="GitHub stats" style="max-width:100%;width:460px;" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&theme=tokyonight" alt="Top languages" style="max-width:100%;width:320px;margin-top:12px;" />
-
-</div>
-
----
-## Featured Projects
-
-- [Projeto A](https://github.com/micaiasviola/projeto-a) • Breve descrição
-- [Projeto B](https://github.com/micaiasviola/projeto-b) • Breve descrição
-
-<!-- Snake module (kept commented as requested)
+\#\#\ GitHub\ Stats\n\n<div\ align="center">\n\n<img\ src="https://github-readme-stats\.vercel\.app/api\?username=micaiasviola&show_icons=true&theme=tokyonight"\ alt="GitHub\ stats"\ style="max-width:100%;width:460px;"\ />\n\n<img\ src="https://github-readme-stats\.vercel\.app/api/top-langs/\?username=micaiasviola&layout=compact&theme=tokyonight"\ alt="Top\ languages"\ style="max-width:100%;width:320px;margin-top:12px;"\ />\n\n</div>\n\n---<!-- Snake module (kept commented as requested)
 <img src="dist/github-contribution-grid-snake.svg" alt="snake" />
--->
-
-## Featured Projects
-
-<div align="center">
+-->\n## Featured Projects\n<div align="center">
 
 <div style="display:flex;flex-wrap:wrap;gap:18px;justify-content:center;max-width:920px;margin:0 auto;">
 
