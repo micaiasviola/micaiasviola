@@ -1,0 +1,39 @@
+name: Generate isometric calendar
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies (no-op if none)
+        run: |
+          npm ci --silent || true
+
+      - name: Generate calendar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: micaiasviola
+          OUTPUT_FILE: dist/isometric-calendar.svg
+        run: node generate-isometric-calendar.mjs
+
+      - name: Update README stats
+        run: node scripts/update-readme-stats.mjs || true
+
+      - name: Commit generated files
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions
+          author_email: actions@github.com
+          message: "📅 Update isometric calendar"
+          add: "dist/isometric-calendar.svg, README.md"
