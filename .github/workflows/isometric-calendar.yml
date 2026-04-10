@@ -28,6 +28,8 @@ jobs:
         run: node generate-isometric-calendar.mjs
 
       - name: Update README stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/update-readme-stats.mjs || true
 
       - name: Commit generated files
@@ -36,4 +38,4 @@ jobs:
           author_name: github-actions
           author_email: actions@github.com
           message: "📅 Update isometric calendar"
-          add: "dist/isometric-calendar.svg, README.md"
+          add: "dist/isometric-calendar.svg README.md"
