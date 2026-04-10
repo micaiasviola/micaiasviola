@@ -22,8 +22,8 @@
 ### 🔎 Quick Stats
 
 - 📌 Streak: **6 dias**
-- ⭐ Best: **80 dias**  
-- ⚡ Média: **~1.4/dia**
+- ⭐ Best: **105 dias**  
+- ⚡ Média: **~1.6/dia**
 
 </div>
 
