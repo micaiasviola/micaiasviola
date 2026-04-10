@@ -64,20 +64,15 @@ import { execSync } from 'child_process';
     let content = Buffer.from(readmeJson.content, 'base64').toString('utf8');
 
     // Replace multiple possible locations of the stats lines
-    // Patterns to replace (left column badges and the plain list near commits section)
-    content = content.replace(/(📌\s*Current streak:)\s*.*/i, `$1 ${streak} days`);
-    content = content.replace(/(⭐\s*Best streak:)\s*.*/i, `$1 ${max} days`);
-    content = content.replace(/(Average per day at:)\s*.*(\n|$)/i, `$1 ~${avg} per day$2`);
+    // Patterns for new format: "- 📌 Streak: **X dias**"
+    content = content.replace(/(📌\s*Streak:)\s*\*\*[^*]+\*\*/i, `$1 **${streak} dias**`);
+    content = content.replace(/(⭐\s*Best:)\s*\*\*[^*]+\*\*/i, `$1 **${max} dias**`);
+    content = content.replace(/(⚡\s*Média:)\s*\*\*[^*]+\*\*/i, `$1 **~${avg}\/dia**`);
 
-    // Also replace list-style lines like: "- Current streak: 1 day"
-    content = content.replace(/(-\s*Current streak:)\s*.*/i, `$1 ${streak} days`);
-    content = content.replace(/(-\s*Best streak:)\s*.*/i, `$1 ${max} days`);
-    content = content.replace(/(-\s*Average per day at:)\s*.*/i, `$1 ~${avg} per day`);
-
-    // If none of the above matched (guard), try a broader replace for 'Current streak: ...' global
-    content = content.replace(/(Current streak:)\s*.*(?=\n)/ig, `Current streak: ${streak} days`);
-    content = content.replace(/(Best streak:)\s*.*(?=\n)/ig, `Best streak: ${max} days`);
-    content = content.replace(/(Average per day at:)\s*.*(?=\n)/ig, `Average per day at: ~${avg} per day`);
+    // Also try old format patterns as fallback
+    content = content.replace(/(Current streak:)\s*.*(?=\n)/i, `Current streak: ${streak} days`);
+    content = content.replace(/(Best streak:)\s*.*(?=\n)/i, `Best streak: ${max} days`);
+    content = content.replace(/(Average per day at:)\s*.*(?=\n)/i, `Average per day at: ~${avg} per day`);
 
     // Commit updated README
     const updatedBase64 = Buffer.from(content, 'utf8').toString('base64');
