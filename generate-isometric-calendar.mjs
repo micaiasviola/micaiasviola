@@ -1,297 +1,166 @@
 #!/usr/bin/env node
 
-/**
- * Isometric Commit Calendar Generator
- * Fetches GitHub contribution data and generates an isometric SVG visualization
- * Based on lowlighter/metrics isocalendar plugin
- */
+// Corrected Isometric Commit Calendar Generator
+// Mirrors lowlighter/metrics isocalendar plugin logic
 
-import * as fs from 'fs';
+import fs from 'fs';
 
 const GITHUB_GRAPHQL_ENDPOINT = 'https://api.github.com/graphql';
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
-const GITHUB_USER = process.env.GITHUB_USER || '';
-const OUTPUT_FILE = process.env.OUTPUT_FILE || './isometric-calendar.svg';
-const WINDOW_DAYS = 28;
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || '';
+const GITHUB_USER = process.env.GITHUB_USER || process.env.USER || '';
+const OUTPUT_FILE = process.env.OUTPUT_FILE || './dist/isometric-calendar.svg';
 
-/**
- * Query GitHub GraphQL for contribution calendar
- */
-async function queryContributionCalendar(from, to) {
-  const query = `
-    query($userName:String!, $from:DateTime!, $to:DateTime!) {
-      user(login: $userName) {
-        contributionsCollection(from: $from, to: $to) {
-          contributionCalendar {
-            totalContributions
-            weeks {
-              contributionDays {
-                date
-                contributionCount
-                contributionLevel
-              }
-            }
+if (!GITHUB_TOKEN) {
+  console.error('GITHUB_TOKEN environment variable is required');
+  process.exit(1);
+}
+if (!GITHUB_USER) {
+  console.error('GITHUB_USER environment variable is required');
+  process.exit(1);
+}
+
+const query = `query IsocalendarCalendar($login:String!, $from:DateTime!, $to:DateTime!) {
+  user(login: $login) {
+    calendar: contributionsCollection(from: $from, to: $to) {
+      contributionCalendar {
+        weeks {
+          contributionDays {
+            contributionCount
+            color
+            date
           }
         }
       }
     }
-  `;
+  }
+}`;
 
-  const variables = {
-    userName: GITHUB_USER,
-    from: from.toISOString(),
-    to: to.toISOString(),
-  };
-
-  const response = await fetch(GITHUB_GRAPHQL_ENDPOINT, {
+async function graphql(variables) {
+  const res = await fetch(GITHUB_GRAPHQL_ENDPOINT, {
     method: 'POST',
     headers: {
       'Authorization': `Bearer ${GITHUB_TOKEN}`,
-      'Content-Type': 'application/json',
+      'Content-Type': 'application/json'
     },
-    body: JSON.stringify({
-      query,
-      variables,
-    }),
+    body: JSON.stringify({ query, variables })
   });
-
-  if (!response.ok) {
-    throw new Error(`GraphQL request failed: ${response.status} ${response.statusText}`);
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`GraphQL request failed: ${res.status} ${res.statusText} - ${text}`);
   }
-
-  const data = await response.json();
-
-  if (data.errors) {
-    throw new Error(`GraphQL error: ${JSON.stringify(data.errors)}`);
-  }
-
-  return data.data.user.contributionsCollection.contributionCalendar;
+  const data = await res.json();
+  if (data.errors) throw new Error(JSON.stringify(data.errors));
+  return data.data;
 }
 
-/**
- * Map contribution level to color
- */
-function getColorForLevel(level) {
-  const colorMap = {
-    NONE: '#ebedf0',
-    'FIRST_QUARTILE': '#c6e48b',
-    'SECOND_QUARTILE': '#7bc96f',
-    'THIRD_QUARTILE': '#239a3b',
-    'FOURTH_QUARTILE': '#196127',
-  };
-  return colorMap[level] || '#ebedf0';
+async function fetchCalendarWeeks(start, end) {
+  const calendar = { weeks: [] };
+  for (let from = new Date(start); from < end;) {
+    let to = new Date(from);
+    // fetch 28 days window to be safe (plugin uses 4 weeks chunks)
+    to.setUTCDate(to.getUTCDate() + 28);
+    if (to > end) to = new Date(end);
+
+    // adjust to include the full previous day boundary if needed
+    const dto = new Date(to);
+    dto.setUTCHours(dto.getUTCHours() - 1);
+    dto.setUTCMinutes(59);
+    dto.setUTCSeconds(59);
+    dto.setUTCMilliseconds(999);
+
+    const vars = { login: GITHUB_USER, from: from.toISOString(), to: dto.toISOString() };
+    // fetch
+    const d = await graphql(vars);
+    if (!d || !d.user || !d.user.calendar || !d.user.calendar.contributionCalendar) break;
+    const weeks = d.user.calendar.contributionCalendar.weeks || [];
+    calendar.weeks.push(...weeks);
+
+    // next from
+    from = new Date(to);
+  }
+  return calendar;
 }
 
-/**
- * Fetch all contribution data
- */
-async function fetchAllContributions() {
-  console.log(`Fetching contribution data for user: ${GITHUB_USER}`);
-  
-  const now = new Date();
-  const allWeeks = [];
-  let from = new Date(now);
-  from.setUTCFullYear(2005); // GitHub contributions started in 2011, go back further to be safe
-  from.setUTCMonth(0);
-  from.setUTCDate(1);
-  
-  // Align to Sunday
-  if (from.getUTCDay() !== 0) {
-    from.setUTCDate(from.getUTCDate() - from.getUTCDay());
-  }
-
-  let to = new Date(from);
-  to.setUTCDate(to.getUTCDate() + WINDOW_DAYS * 7);
-
-  while (from < now) {
-    if (to > now) {
-      to = new Date(now);
-    }
-
-    console.log(`Fetching contributions from ${from.toISOString().split('T')[0]} to ${to.toISOString().split('T')[0]}`);
-
-    try {
-      const calendar = await queryContributionCalendar(from, to);
-      
-      // Add contribution days with their computed colors
-      if (calendar.weeks) {
-        for (const week of calendar.weeks) {
-          const processedWeek = {
-            contributionDays: week.contributionDays.map(day => ({
-              ...day,
-              color: getColorForLevel(day.contributionLevel),
-            })),
-          };
-          allWeeks.push(processedWeek);
-        }
-      }
-
-      from = new Date(to);
-      to = new Date(from);
-      to.setUTCDate(to.getUTCDate() + WINDOW_DAYS * 7);
-    } catch (error) {
-      console.error(`Error fetching contributions: ${error.message}`);
-      break;
-    }
-  }
-
-  console.log(`Total weeks fetched: ${allWeeks.length}`);
-  return allWeeks;
-}
-
-/**
- * Calculate statistics from contribution data
- */
-function calculateStatistics(weeks) {
-  let maxStreak = 0;
-  let currentStreak = 0;
-  let maxContributions = 0;
-  const contributions = [];
-
-  for (const week of weeks) {
+function computeStats(calendar) {
+  let average = 0, max = 0;
+  const streak = { max: 0, current: 0 };
+  const values = [];
+  for (const week of calendar.weeks) {
     for (const day of week.contributionDays) {
-      const count = day.contributionCount || 0;
-      contributions.push(count);
-      maxContributions = Math.max(maxContributions, count);
-
-      if (count > 0) {
-        currentStreak++;
-        maxStreak = Math.max(maxStreak, currentStreak);
-      } else {
-        currentStreak = 0;
-      }
+      const cnt = day.contributionCount || 0;
+      values.push(cnt);
+      max = Math.max(max, cnt);
+      streak.current = cnt ? streak.current + 1 : 0;
+      streak.max = Math.max(streak.max, streak.current);
     }
   }
-
-  const average = contributions.length > 0
-    ? (contributions.reduce((a, b) => a + b, 0) / contributions.length).toFixed(2)
-    : '0';
-
-  return {
-    maxStreak,
-    maxContributions,
-    average: parseFloat(average).toString().replace(/\.0+$/, ''),
-    totalContributions: contributions.reduce((a, b) => a + b, 0),
-  };
+  average = values.length ? (values.reduce((a,b)=>a+b,0)/values.length).toFixed(2).replace(/[.]0+$/,'') : '0';
+  return { streak, max, average };
 }
 
-/**
- * Generate isometric SVG
- */
-function generateSVG(weeks, stats) {
-  console.log('Generating SVG...');
-
+function generateSVG(calendar, stats, duration='all-time') {
   const size = 6;
   const scale = 4;
-  const padding = 12;
-  
-  // Calculate dimensions
-  const weekCount = weeks.length;
-  const viewBoxWidth = 480;
-  const viewBoxHeight = Math.ceil((weekCount * 1.7 + 5) * scale);
+  // set viewBox height similar to plugin: full-year -> 270, half-year -> 170, else compute
+  const viewBoxHeight = duration === 'full-year' ? 270 : (duration === 'half-year' ? 170 : Math.max(170, Math.ceil(calendar.weeks.length * 0.8)));
 
-  let svg = `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${viewBoxWidth} ${viewBoxHeight}">
-    <defs>
-      <style>
-        .iso-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12px; fill: #24292e; }
-        .iso-stat-label { font-size: 11px; fill: #666; }
-        .iso-stat-value { font-size: 14px; font-weight: bold; fill: #24292e; }
-      </style>
-      <filter id="brightness1">
-        <feComponentTransfer>
-          <feFunc type="linear" slope="0.6" />
-          <feFunc type="linear" slope="0.6" />
-          <feFunc type="linear" slope="0.6" />
-        </feComponentTransfer>
-      </filter>
-      <filter id="brightness2">
-        <feComponentTransfer>
-          <feFunc type="linear" slope="0.2" />
-          <feFunc type="linear" slope="0.2" />
-          <feFunc type="linear" slope="0.2" />
-        </feComponentTransfer>
-      </filter>
-    </defs>`;
+  const reference = Math.max(...calendar.weeks.flatMap(w => w.contributionDays.map(d => d.contributionCount)), 1);
 
-  // Add title
-  svg += `\n    <!-- Title -->
-    <text x="${viewBoxWidth / 2}" y="20" class="iso-text" text-anchor="middle" style="font-size: 16px; font-weight: bold;">📅 Isometric Contribution Calendar</text>`;
-
-  // Add statistics box
-  svg += `\n    <!-- Statistics -->
-    <g>
-      <text x="10" y="40" class="iso-stat-label">Current Streak</text>
-      <text x="10" y="52" class="iso-stat-value">${stats.maxStreak} days</text>
-      
-      <text x="120" y="40" class="iso-stat-label">Max Contributions</text>
-      <text x="120" y="52" class="iso-stat-value">${stats.maxContributions}</text>
-      
-      <text x="230" y="40" class="iso-stat-label">Avg per Day</text>
-      <text x="230" y="52" class="iso-stat-value">${stats.average}</text>
-      
-      <text x="340" y="40" class="iso-stat-label">Total Contributions</text>
-      <text x="340" y="52" class="iso-stat-value">${stats.totalContributions}</text>
-    </g>`;
-
-  // Generate isometric calendar
-  svg += `\n    <!-- Isometric Calendar -->
-    <g transform="scale(${scale}) translate(${padding}, 60)">`;
-
-  let maxContributions = Math.max(...weeks.flatMap(w => w.contributionDays.map(d => d.contributionCount)));
-  if (maxContributions === 0) maxContributions = 1;
+  let svg = `<?xml version="1.0" encoding="utf-8"?>\n`;
+  svg += `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="margin-top: -130px;" viewBox="0,0 480,${viewBoxHeight}">`;
+  svg += `\n  <defs>`;
+  svg += `\n    <filter id="brightness1"><feComponentTransfer><feFuncR type=\"linear\" slope=\"0.6\"/><feFuncG type=\"linear\" slope=\"0.6\"/><feFuncB type=\"linear\" slope=\"0.6\"/></feComponentTransfer></filter>`;
+  svg += `\n    <filter id="brightness2"><feComponentTransfer><feFuncR type=\"linear\" slope=\"0.2\"/><feFuncG type=\"linear\" slope=\"0.2\"/><feFuncB type=\"linear\" slope=\"0.2\"/></feComponentTransfer></filter>`;
+  svg += `\n  </defs>`;
+  svg += `\n  <g transform=\"scale(4) translate(12, 0)\">`;
 
   let i = 0;
-  for (const week of weeks) {
-    svg += `\n      <g transform="translate(${i * 1.7}, ${i})">`;
+  for (const week of calendar.weeks) {
+    svg += `\n    <g transform=\"translate(${i * 1.7}, ${i})\">`;
     let j = 0;
     for (const day of week.contributionDays) {
-      const ratio = (day.contributionCount || 0) / maxContributions;
-      svg += `
-        <g transform="translate(${j * -1.7}, ${j + (1 - ratio) * size})">
-          <path fill="${day.color}" d="M1.7,2 0,1 1.7,0 3.4,1 z" />
-          <path fill="${day.color}" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,${2 + ratio * size} 0,${1 + ratio * size} z" />
-          <path fill="${day.color}" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,${1 + ratio * size} 1.7,${2 + ratio * size} z" />
-        </g>`;
+      const ratio = (day.contributionCount || 0) / reference;
+      const color = day.color || '#ebedf0';
+      svg += `\n      <g transform=\"translate(${j * -1.7}, ${j + (1 - ratio) * size})\">`;
+      svg += `\n        <path fill=\"${color}\" d=\"M1.7,2 0,1 1.7,0 3.4,1 z\" />`;
+      svg += `\n        <path fill=\"${color}\" filter=\"url(#brightness1)\" d=\"M0,1 1.7,2 1.7,${2 + ratio * size} 0,${1 + ratio * size} z\" />`;
+      svg += `\n        <path fill=\"${color}\" filter=\"url(#brightness2)\" d=\"M1.7,2 3.4,1 3.4,${1 + ratio * size} 1.7,${2 + ratio * size} z\" />`;
+      svg += `\n      </g>`;
       j++;
     }
-    svg += `\n      </g>`;
+    svg += `\n    </g>`;
     i++;
   }
 
-  svg += `\n    </g>\n  </svg>`;
+  svg += `\n  </g>`;
+  // Optionally add stats as text
+  svg += `\n  <g transform=\"translate(8,12)\">`;
+  svg += `\n    <text x=\"0\" y=\"0\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" fill=\"#24292e\">Streak: ${stats.streak.current || 0} / Max: ${stats.streak.max}</text>`;
+  svg += `\n    <text x=\"0\" y=\"14\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" fill=\"#24292e\">Max/day: ${stats.max}  Avg: ${stats.average}</text>`;
+  svg += `\n  </g>`;
 
+  svg += `\n</svg>`;
   return svg;
 }
 
-/**
- * Main execution
- */
-async function main() {
+(async function main(){
   try {
-    if (!GITHUB_TOKEN) {
-      throw new Error('GITHUB_TOKEN environment variable is required');
-    }
-    if (!GITHUB_USER) {
-      throw new Error('GITHUB_USER environment variable is required');
-    }
+    const now = new Date();
+    // For all-time, start from 2005-01-01 aligned to sunday
+    const start = new Date(now);
+    start.setUTCFullYear(2005);
+    start.setUTCMonth(0);
+    start.setUTCDate(1);
+    if (start.getUTCDay() !== 0) start.setUTCDate(start.getUTCDate() - start.getUTCDay());
+    start.setUTCHours(0,0,0,0);
 
-    console.log('Starting isometric calendar generation...');
-    
-    const weeks = await fetchAllContributions();
-    const stats = calculateStatistics(weeks);
-    const svg = generateSVG(weeks, stats);
-
-    fs.writeFileSync(OUTPUT_FILE, svg, 'utf-8');
-    console.log(`✅ Successfully generated isometric calendar: ${OUTPUT_FILE}`);
-    console.log(`   - Weeks: ${weeks.length}`);
-    console.log(`   - Current Streak: ${stats.maxStreak} days`);
-    console.log(`   - Max Contributions: ${stats.maxContributions}`);
-    console.log(`   - Average per Day: ${stats.average}`);
-    console.log(`   - Total Contributions: ${stats.totalContributions}`);
-  } catch (error) {
-    console.error(`❌ Error: ${error.message}`);
+    const calendar = await fetchCalendarWeeks(start, now);
+    const stats = computeStats(calendar);
+    const svg = generateSVG(calendar, stats, 'all-time');
+    fs.writeFileSync(OUTPUT_FILE, svg, 'utf8');
+    console.log('✅ SVG generated:', OUTPUT_FILE);
+  } catch (err) {
+    console.error('Error:', err.message || err);
     process.exit(1);
   }
-}
-
-main();
+})();
