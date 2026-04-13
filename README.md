@@ -9,7 +9,7 @@
 |  |  |
 |:---:|:---:|
 | ![Snake](https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake-dark.svg) | ![Isometric Calendar](https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg) |
-| 🐍 **Commits** | 📅 **Calendar (12 months)**<br/><br/>**🔎 Quick Stats**<br/>📌 Streak: **6 dias**<br/>⭐ Best: **123 dias**<br/>⚡ Média: **~1.1/dia** |
+| 🐍 **Commits** | 📅 **Calendar (12 months)**<br/><br/>**🔎 Quick Stats**<br/>📌 Streak: **7 dias**<br/>⭐ Best: **123 dias**<br/>⚡ Média: **~1.1/dia** |
 
 ---
 
