@@ -1,0 +1,36 @@
+name: Update Recent Repositories
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' # Every 12 hours
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allows manual run
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Update Recent Repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-recent-repos.mjs
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "docs: automated update of recent repositories" && git push)
