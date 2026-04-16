@@ -1,5 +1,5 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- HERO SECTION - PREMIUM LANDING -->
+<!-- HERO SECTION - CYBER-MANAGEMENT LANDING -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=792783&center=true&vCenter=true&width=600&lines=Building+Scalable+Products;Managing+Agile+Teams;Bridging+Tech+%26+Business;Engineering+High-Performance+Solutions" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=792783&center=true&vCenter=true&width=600&lines=Building+the+Future;Bridging+Logic+with+Leadership;Strategic+Vision;Technical+Precision;Cyber-Enhanced+Management" alt="Typing Animation" />
 </p>
 
 <div align="center">
-  
+
   **Transforming technical complexity into strategic business value.**  
   São Paulo, Brazil 🇧🇷 • Professional PM & Full-Stack Developer
   
@@ -53,26 +53,50 @@ Engenheiro de Software e Gestor de Projetos focado em **resultados**. Com sólid
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- SKILLS GRID - ORGANIZED BY CATEGORY -->
+<!-- SKILLS GRID - EXPANDED MATRIX -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
-## 🛠️ **Core Competencies**
+## 🛠️ **Core Competencies Matrix**
 
 <div align="center">
 
-### **Management & Leadership**
-[![Agile](https://img.shields.io/badge/Methodology-Agile%2FScrum-blue?style=for-the-badge&logoColor=white)](https://)
-[![Jira](https://img.shields.io/badge/Tooling-Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)](https://)
-[![Product Strategy](https://img.shields.io/badge/Focus-Product%20Strategy-792783?style=for-the-badge)](https://)
-[![Stakeholder Management](https://img.shields.io/badge/Soft%20Skills-Stakeholder%20Management-FFB800?style=for-the-badge)](https://)
+| **Leadership & Management** | **Frontend Mastery** | **Backend & Database** | **DevOps & Tools** |
+| :--- | :--- | :--- | :--- |
+| 📘 Agile (Scrum/Kanban) | ⚛️ React.js & Next.js | 🟢 Node.js & PHP | 🐳 Docker & Linux |
+| 📈 OKRs & KPIs Analysis | 🎨 TailwindCSS & SCSS | 💾 PostgreSQL & Supabase | 🔄 GitHub Actions |
+| 🧩 Risk Management | ⌨️ TypeScript & ES6+ | 🐍 Python & Flask | 🔧 Postman & Insomnia |
+| 🗺️ Product Roadmap | 🚀 Vite & Framer Motion | 🔗 Prisma & GraphQL | 🎨 Figma & UI/UX |
+| 🤝 Stakeholder Mgmt | 🛠️ Lucide & Shadcn/UI | 🔐 JWT & Auth Patterns | ☁️ AWS (S3 / EC2) |
 
-### **Technology & Engineering**
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,php,py,supabase,postgres,mysql,docker,githubactions,linux,figma,postman,vscode" />
-  </a>
-</p>
+<br/>
 
+**Tech Ecosystem at a Glance:**
+<br/>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,nodejs,php,py,supabase,postgres,mysql,docker,githubactions,linux,figma,postman,vscode,aws,git" />
+</a>
+
+</div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- REPOSITORY SHOWCASE - MODERN PINS -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
+## 🎯 **Featured Solutions & Impact**
+
+<div align="center">
+  <table style="border: none;">
+    <tr style="border: none;">
+      <td style="border: none;"><a href="https://github.com/micaiasviola/classifyemail"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=classifyemail&theme=tokyonight&border_radius=10" alt="Repo 1" /></a></td>
+      <td style="border: none;"><a href="https://github.com/micaiasviola/UserAutentication-in-PHP"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=UserAutentication-in-PHP&theme=tokyonight&border_radius=10" alt="Repo 2" /></a></td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none;"><a href="https://github.com/micaiasviola/HelpBox"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=HelpBox&theme=tokyonight&border_radius=10" alt="Repo 3" /></a></td>
+      <td style="border: none;"><a href="https://github.com/micaiasviola/micaiasviola"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=micaiasviola&theme=tokyonight&border_radius=10" alt="Repo 4" /></a></td>
+    </tr>
+  </table>
 </div>
 
 ---
@@ -103,43 +127,52 @@ Engenheiro de Software e Gestor de Projetos focado em **resultados**. Com sólid
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ACTIVITY - RECENT PROGRESS -->
+<!-- ACTIVITY - MINIATURE ALIGNMENT -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
-## 🐍 **Development Pulse**
+## ⚡ **Development Pulse**
 
 <div align="center">
-  
-  **3D Isometric Contribution History**
-  
-  ![Isometric Calendar](https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg)
-  
-  <br/>
-  
-  **Contribution Snake**
-  
-  ![Snake](https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake-dark.svg)
-  
+  <table style="width: 100%; border: none; border-collapse: collapse;">
+    <tr style="border: none;">
+      <td style="width: 50%; padding: 10px; border: none; vertical-align: middle;">
+        <p align="center">
+          <b>3D Metric Calendar</b><br/>
+          <img src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" width="90%" />
+        </p>
+      </td>
+      <td style="width: 50%; padding: 10px; border: none; vertical-align: middle;">
+        <p align="center">
+          <b>Contribution Snake</b><br/>
+          <img src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake-dark.svg" width="90%" />
+        </p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- FOOTER - CALL TO ACTION -->
+<!-- FOOTER - CYBERPUNK FINISH -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
 <br/>
 
-<div align="center" style="background: linear-gradient(135deg, rgba(29, 78, 137, 0.08) 0%, rgba(79, 39, 131, 1) 100%); padding: 40px; border-radius: 12px;">
+<p align="center">
+  <img src="https://github.com/micaiasviola/micaiasviola/raw/main/cyberpunk_footer.png" alt="Cyberpunk Footer" width="100%" />
+</p>
 
-### **Vamos construir algo incrível juntos?** ✨
-*Estou sempre aberto a novas conexões, discussões técnicas e oportunidades de liderança.*
+<div align="center">
+
+### **Connecting Code, Strategy & Leadership** ✨
+*Currently focused on building high-performance solutions at ECQUA Engenharia.*
 
 [**📧 Email Me**](mailto:leo.micaias@gmail.com) • [**💬 Discord**](https://discord.com/users/355140955168440330) • [**🔗 LinkedIn**](https://www.linkedin.com/in/micaias-viola-12857920a)
 
 ---
 
-![Profile Views](https://komarev.com/ghpvc/?username=micaiasviola&color=792783&style=flat-square&label=Profile+Views)
-*Powered by Metrics & Automation*
+![Profile Views](https://komarev.com/ghpvc/?username=micaiasviola&color=792783&style=flat-square&label=Access+Granted)
+*Micaías Viola // System Online*
 
 </div>
