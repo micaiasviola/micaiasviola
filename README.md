@@ -1,51 +1,50 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- AGGRESSIVE CYBER-HEADER - SYSTEM INITIALIZATION -->
+<!-- PREMIER CYBER-FUSION HEADER - FLUID & PROFESSIONAL -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=00ff00&height=250&section=header&text=Micaías%20Viola&fontSize=90&animation=fadeIn&fontAlignY=40&desc=TECHNICAL%20PROJECT%20MANAGER%20//%20FULL-STACK%20ENGINEER&descAlignY=65&descAlign=50&fontColor=000000" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=792783&height=280&section=header&text=Micaías%20Viola&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Technical%20Project%20Manager%20•%20Full-Stack%20Engineer&descAlignY=60&descAlign=50" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00FF00&center=true&vCenter=true&width=700&lines=CORE_SYSTEM_INITIALIZED;MASTERING_PROJECT_LIFECYCLES;BRIDGING_CODE_AND_STRATEGY;CYBER_ENHANCED_MANAGEMENT;EXECUTING_SCALABLE_SOLUTIONS" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=792783&center=true&vCenter=true&width=600&lines=Building+Scalable+Products;Managing+Agile+Teams;Bridging+Tech+%26+Business;Engineering+High-Performance+Solutions" alt="Typing Animation" />
 </p>
 
 <div align="center">
-
-  **TRANSMUTING COMPLEXITY INTO STRATEGIC EXCELLENCE.**  
-  `SÃO PAULO, BR` • `PM @ ECQUA ENGENHARIA` • `FULL-STACK ARCHITECT`
   
-  [**TERMINAL_PORTFOLIO**](#) • [**NEURAL_LINKEDIN**](https://www.linkedin.com/in/micaias-viola-12857920a) • [**ESTABLISH_UPLINK**](mailto:leo.micaias@gmail.com)
+  **Transforming technical complexity into strategic business value.**  
+  São Paulo, Brazil 🇧🇷 • Professional PM & Full-Stack Developer
+  
+  [**Portfolio**](#) • [**LinkedIn**](https://www.linkedin.com/in/micaias-viola-12857920a) • [**Contact Me**](mailto:leo.micaias@gmail.com)
 </div>
 
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ABOUT ME - THE ARCHITECT'S VISION -->
+<!-- ABOUT ME - STRATEGIC PROFILE -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
-## 🛰️ **EXECUTIVE_DASHBOARD**
+## 👨‍💼 **Executive Summary**
 
 <table style="width: 100%; border-collapse: collapse; border: none;">
 <tr>
 <td style="width: 60%; vertical-align: top; padding-right: 20px; border: none;">
 
-### ⚡ **Mission Parameters**
-Engenheiro de Software e Gestor de Projetos focado em **resultados**. Atuo na fronteira entre engenharia e negócios para garantir entregas eficientes, escaláveis e alinhadas aos objetivos estratégicos.
+Engenheiro de Software e Gestor de Projetos focado em **resultados**. Com sólida base técnica em desenvolvimento Full-Stack e experiência em liderança de produtos (Product Owner), atuo na interseção entre engenharia e negócios para garantir entregas eficientes, escaláveis e alinhadas aos objetivos estratégicos.
 
-- 🛡️ **Especialista Ágil:** Masterizando Scrum e Kanban para fluxo contínuo.
-- 🏗️ **Arquitetura Crítica:** Soluções robustas em Ecossistemas Web.
-- 🧪 **Data-Driven Execution:** Decisões baseadas em métricas de performance real.
+- 🚀 **Especialista Ágil:** Masterizando Scrum e Kanban para otimizar o fluxo de trabalho.
+- 🛠️ **Arquitetura Técnica:** Visão sistêmica para soluções robustas em Ecossistemas Web.
+- 📊 **Data-Driven:** Decisões baseadas em métricas de performance e UX.
 
 </td>
-<td style="width: 40%; vertical-align: top; padding: 20px; border-radius: 4px; background: #000; border: 2px solid #00ff00;">
+<td style="width: 40%; vertical-align: top; padding: 20px; border-radius: 12px; background: rgba(30, 30, 30, 0.5); border: 1px solid #30363d;">
 
-### 📟 **SYSTEM_SPECS**
-- **CORE:** Technical PM / Product Owner
-- **ORG:** ECQUA Engenharia / KABALA
-- **SECTOR:** Construction Tech & ERP
-- **STACK:** Next.js / TypeScript / Supabase
-- **PROTOCOL:** Agile / Lean / DevOps
+### 📌 **Quick Info**
+- **Role:** Technical PM / Product Owner
+- **Company:** ECQUA Engenharia
+- **Focus:** Construction Tech & ERPs
+- **Current Stack:** Next.js, TypeScript, Supabase
+- **Methodology:** Agile / Lean
 
 </td>
 </tr>
@@ -54,26 +53,27 @@ Engenheiro de Software e Gestor de Projetos focado em **resultados**. Atuo na fr
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- SKILLS GRID - NEON DATA MATRIX -->
+<!-- SKILLS GRID - SYSTEM RECOGNITION -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
-## 🖥️ **DATA_SKILL_MATRIX**
+## 🛠️ **Core Competencies Matrix**
 
 <div align="center">
 
-| **LEADERSHIP & MGMT** | **FRONTEND SYSTEMS** | **BACKEND DEPLOY** | **OPS & TOOLS** |
+| **Leadership & Management** | **Frontend Mastery** | **Backend & Database** | **DevOps & Tools** |
 | :--- | :--- | :--- | :--- |
-| <img src="https://img.shields.io/badge/-Agile--Scrum-00ff00?style=flat-square&logoColor=black"/> | <img src="https://img.shields.io/badge/-React.js-00ff00?style=flat-square&logoColor=black"/> | <img src="https://img.shields.io/badge/-Node.js-00ff00?style=flat-square&logoColor=black"/> | <img src="https://img.shields.io/badge/-Docker-00ff00?style=flat-square&logoColor=black"/> |
-| <img src="https://img.shields.io/badge/-OKR--KPIs-00ff00?style=flat-square&logoColor=black"/> | <img src="https://img.shields.io/badge/-Next.js-00ff00?style=flat-square&logoColor=black"/> | <img src="https://img.shields.io/badge/-PostgreSQL-00ff00?style=flat-square&logoColor=black"/> | <img src="https://img.shields.io/badge/-GH--Actions-00ff00?style=flat-square&logoColor=black"/> |
-| <img src="https://img.shields.io/badge/-Risk--Mgmt-00ff00?style=flat-square&logoColor=black"/> | <img src="https://img.shields.io/badge/-Tailwind-00ff00?style=flat-square&logoColor=black"/> | <img src="https://img.shields.io/badge/-Supabase-00ff00?style=flat-square&logoColor=black"/> | <img src="https://img.shields.io/badge/-Figma-00ff00?style=flat-square&logoColor=black"/> |
-| <img src="https://img.shields.io/badge/-Roadmap-00ff00?style=flat-square&logoColor=black"/> | <img src="https://img.shields.io/badge/-TypeScript-00ff00?style=flat-square&logoColor=black"/> | <img src="https://img.shields.io/badge/-Python-00ff00?style=flat-square&logoColor=black"/> | <img src="https://img.shields.io/badge/-Linux-00ff00?style=flat-square&logoColor=black"/> |
+| 📘 Agile (Scrum/Kanban) | ⚛️ React.js & Next.js | 🟢 Node.js & PHP | 🐳 Docker & Linux |
+| 📈 OKRs & KPIs Analysis | 🎨 TailwindCSS & SCSS | 💾 PostgreSQL & Supabase | 🔄 GitHub Actions |
+| 🧩 Risk Management | ⌨️ TypeScript & ES6+ | 🐍 Python & Flask | 🔧 Postman & Insomnia |
+| 🗺️ Product Roadmap | 🚀 Vite & Framer Motion | 🔗 Prisma & GraphQL | 🎨 Figma & UI/UX |
+| 🤝 Stakeholder Mgmt | 🛠️ Lucide & Shadcn/UI | 🔐 JWT & Auth Patterns | ☁️ AWS (S3 / EC2) |
 
 <br/>
 
-**TECHNOLOGY_HIVE_MIND:**
+**Technology Ecosystem:**
 <br/>
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,nodejs,php,py,supabase,postgres,mysql,docker,githubactions,linux,figma,postman,vscode,aws,git&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,nodejs,php,py,supabase,postgres,mysql,docker,githubactions,linux,figma,postman,vscode,aws,git" />
 </a>
 
 </div>
@@ -81,72 +81,72 @@ Engenheiro de Software e Gestor de Projetos focado em **resultados**. Atuo na fr
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- REPOSITORY SHOWCASE - AGGRESSIVE CARDS -->
+<!-- REPOSITORY SHOWCASE - DYNAMIC TOKYONIGHT -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
-## ☣️ **RECENT_DEPLOYS // DYNAMIC_REPOS**
+## 🎯 **Featured Solutions & Impact**
 
 <div align="center">
+<!-- RECENT_REPOS_START -->
   <table style="border: none;">
     <tr style="border: none;">
-      <td style="border: none;"><a href="https://github.com/micaiasviola/classifyemail"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=classifyemail&theme=radical&bg_color=000000&title_color=00ff00&text_color=ffffff&icon_color=00ff00&border_color=00ff00" alt="Repo 1" /></a></td>
-      <td style="border: none;"><a href="https://github.com/micaiasviola/UserAutentication-in-PHP"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=UserAutentication-in-PHP&theme=radical&bg_color=000000&title_color=00ff00&text_color=ffffff&icon_color=00ff00&border_color=00ff00" alt="Repo 2" /></a></td>
+      <td style="border: none;"><a href="https://github.com/micaiasviola/classifyemail"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=classifyemail&theme=tokyonight&border_radius=10" alt="Repo 1" /></a></td>
+      <td style="border: none;"><a href="https://github.com/micaiasviola/UserAutentication-in-PHP"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=UserAutentication-in-PHP&theme=tokyonight&border_radius=10" alt="Repo 2" /></a></td>
     </tr>
     <tr style="border: none;">
-      <td style="border: none;"><a href="https://github.com/micaiasviola/HelpBox"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=HelpBox&theme=radical&bg_color=000000&title_color=00ff00&text_color=ffffff&icon_color=00ff00&border_color=00ff00" alt="Repo 3" /></a></td>
-      <td style="border: none;"><a href="https://github.com/micaiasviola/micaiasviola"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=micaiasviola&theme=radical&bg_color=000000&title_color=00ff00&text_color=ffffff&icon_color=00ff00&border_color=00ff00" alt="Repo 4" /></a></td>
+      <td style="border: none;"><a href="https://github.com/micaiasviola/HelpBox"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=HelpBox&theme=tokyonight&border_radius=10" alt="Repo 3" /></a></td>
+      <td style="border: none;"><a href="https://github.com/micaiasviola/micaiasviola"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=micaiasviola&theme=tokyonight&border_radius=10" alt="Repo 4" /></a></td>
     </tr>
   </table>
-  <br/>
-  <i>*Cards update automatically to reflect recent high-impact activity.*</i>
+<!-- RECENT_REPOS_END -->
 </div>
 
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ADVANCED STATS - HARD DATA -->
+<!-- ADVANCED STATS - TOKYONIGHT DATA -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
-## 📈 **HARD_METRICS**
+## 📊 **Engineering Metrics**
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=micaiasviola&theme=monokai&no-bg=true&column=7&rank=SSS,SS,S,AAA,AA,A" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=micaiasviola&theme=tokyonight&no-bg=true&column=7" alt="GitHub Trophies" />
 </p>
 
 <div align="center">
   <table style="border: none;">
     <tr style="border: none;">
-      <td style="border: none;"><img src="https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=radical&hide_border=false&bg_color=000000&title_color=00ff00&text_color=ffffff&icon_color=00ff00&border_color=00ff00&border_radius=0" alt="Stats" height="180" /></td>
-      <td style="border: none;"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&theme=radical&hide_border=false&bg_color=000000&title_color=00ff00&text_color=ffffff&icon_color=00ff00&border_color=00ff00&border_radius=0" alt="Languages" height="180" /></td>
+      <td style="border: none;"><img src="https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b26&border_radius=10" alt="Stats" height="180" /></td>
+      <td style="border: none;"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26&border_radius=10" alt="Languages" height="180" /></td>
     </tr>
   </table>
 </div>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=micaiasviola&theme=react-dark&hide_border=false&area=true&bg_color=000000&color=00ff00&line=00ff00&point=ffffff" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=micaiasviola&theme=tokyonight&hide_border=true&area=true&bg_color=1a1b26" width="100%" />
 </p>
 
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ACTIVITY - DUAL SYNCHRONIZATION -->
+<!-- ACTIVITY - RECENT PROGRESS -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
-## 🔋 **SYNCHRONIZED_PULSE**
+## ⚡ **Development Pulse**
 
 <div align="center">
   <table style="width: 100%; border: none; border-collapse: collapse;">
     <tr style="border: none;">
       <td style="width: 50%; padding: 10px; border: none; vertical-align: middle;">
         <p align="center">
-          <b>ISOMETRIC_CALENDAR_CORE</b><br/>
-          <img src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" width="100%" />
+          <b>Isometric Activity</b><br/>
+          <img src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/isometric-calendar.svg" width="90%" />
         </p>
       </td>
       <td style="width: 50%; padding: 10px; border: none; vertical-align: middle;">
         <p align="center">
-          <b>NEURAL_SNAKE_SEQUENCE</b><br/>
-          <img src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake-dark.svg" width="100%" />
+          <b>Contribution Snake</b><br/>
+          <img src="https://github.com/micaiasviola/micaiasviola/raw/main/dist/github-contribution-grid-snake-dark.svg" width="90%" />
         </p>
       </td>
     </tr>
@@ -161,23 +161,23 @@ Engenheiro de Software e Gestor de Projetos focado em **resultados**. Atuo na fr
 
 <br/>
 
-<div align="center" style="background: #000; padding: 50px; border-top: 4px solid #00ff00; border-bottom: 4px solid #00ff00;">
+<div align="center" style="background: linear-gradient(135deg, rgba(29, 78, 137, 0.08) 0%, rgba(121, 39, 131, 0.08) 100%); padding: 50px; border-radius: 12px;">
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=2000&color=00FF00&center=true&vCenter=true&width=800&lines=Cogito,+ergo+sum...;O+que+não+me+mata,+me+fortalece.;Conhece-te+a+ti+mesmo.;Amor+Fati:+Ame+o+seu+destino.;Vincere+scire+est...;A+vida+sem+exames+não+vale+a+pena+ser+vivida." alt="Philosophy Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=2000&color=792783&center=true&vCenter=true&width=800&lines=Cogito,+ergo+sum...;O+que+não+me+mata,+me+fortalece.;Conhece-te+a+ti+mesmo.;Amor+Fati:+Ame+o+seu+destino.;Vincere+scire+est...;A+vida+sem+exames+não+vale+a+pena+ser+vivida." alt="Philosophy Animation" />
 </p>
 
 <br/>
 
-### **STRATEGIZING THE FUTURE // EXECUTING THE NOW** 
-*ESTABLISHING NEW PARADIGMS IN PROJECT MANAGEMENT & TECHNOLOGY.*
+### **Let's build the future together** ✨
+*Estou sempre aberto a novas conexões, discussões técnicas e oportunidades de liderança.*
 
-[**📧 UPLINK_MSG**](mailto:leo.micaias@gmail.com) • [**💬 NEURAL_DISCORD**](https://discord.com/users/355140955168440330) • [**🔗 GLOBAL_LINKEDIN**](https://www.linkedin.com/in/micaias-viola-12857920a)
+[**📧 Email Me**](mailto:leo.micaias@gmail.com) • [**💬 Discord**](https://discord.com/users/355140955168440330) • [**🔗 LinkedIn**](https://www.linkedin.com/in/micaias-viola-12857920a)
 
+---
+
+![Profile Views](https://komarev.com/ghpvc/?username=micaiasviola&color=792783&style=flat-square&label=Access+Granted)
 <br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=micaiasviola&color=00ff00&style=flat-square&label=ACCESS_GRANTED)
-<br/>
-`MICAÍAS VIOLA // VERSION_4.0_FINAL`
+`MICAÍAS VIOLA // PREMIER REVISION`
 
 </div>
