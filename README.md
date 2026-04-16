@@ -90,15 +90,18 @@ Engenheiro de Software e Gestor de Projetos focado em **resultados**. Com sólid
 <!-- RECENT_REPOS_START -->
   <table style="border: none;">
     <tr style="border: none;">
-      <td style="border: none;"><a href="https://github.com/micaiasviola/classifyemail"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=classifyemail&theme=tokyonight&border_radius=10" alt="Repo 1" /></a></td>
-      <td style="border: none;"><a href="https://github.com/micaiasviola/UserAutentication-in-PHP"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=UserAutentication-in-PHP&theme=tokyonight&border_radius=10" alt="Repo 2" /></a></td>
+      
+      <td style="border: none;"><a href="https://github.com/micaiasviola/PLANILHA-OBRAS-GERAL"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=PLANILHA-OBRAS-GERAL&theme=tokyonight&border_radius=10" alt="PLANILHA-OBRAS-GERAL" /></a></td>
+      
+      <td style="border: none;"><a href="https://github.com/micaiasviola/erp-auth"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=erp-auth&theme=tokyonight&border_radius=10" alt="erp-auth" /></a></td>
     </tr>
     <tr style="border: none;">
-      <td style="border: none;"><a href="https://github.com/micaiasviola/HelpBox"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=HelpBox&theme=tokyonight&border_radius=10" alt="Repo 3" /></a></td>
-      <td style="border: none;"><a href="https://github.com/micaiasviola/micaiasviola"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=micaiasviola&theme=tokyonight&border_radius=10" alt="Repo 4" /></a></td>
+      
+      <td style="border: none;"><a href="https://github.com/micaiasviola/AppVistoriaEcqua"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=AppVistoriaEcqua&theme=tokyonight&border_radius=10" alt="AppVistoriaEcqua" /></a></td>
+      
+      <td style="border: none;"><a href="https://github.com/micaiasviola/CHECKLIST-VISTORIA"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=CHECKLIST-VISTORIA&theme=tokyonight&border_radius=10" alt="CHECKLIST-VISTORIA" /></a></td>
     </tr>
-  </table>
-<!-- RECENT_REPOS_END -->
+  </table><!-- RECENT_REPOS_END -->
 </div>
 
 ---
