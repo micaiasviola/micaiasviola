@@ -113,7 +113,7 @@ Engenheiro de Software e Gestor de Projetos focado em **resultados**. Com sólid
 ## 📊 **Engineering Metrics**
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=micaiasviola&theme=tokyonight&no-bg=true&column=7" alt="GitHub Trophies" />
+  <img src="https://streak-stats.demolab.com?user=micaiasviola&theme=tokyonight&hide_border=true&background=1a1b26&border_radius=10" alt="GitHub Streak Stats" />
 </p>
 
 <div align="center">
