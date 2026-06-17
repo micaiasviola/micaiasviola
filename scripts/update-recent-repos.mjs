@@ -36,16 +36,15 @@ async function updateRecentRepos() {
 
         // Generate the new HTML table content
         // Using the Tokyonight theme as requested
-        const generateCard = (repo) => `
-      <td style="border: none;"><a href="${repo.html_url}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=tokyonight&border_radius=10" alt="${repo.name}" /></a></td>`;
+        const generateCard = (repo) => `<td><a href="${repo.html_url}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=tokyonight&border_radius=10" alt="${repo.name}" /></a></td>`;
 
         const newTable = `
-  <table style="border: none;">
-    <tr style="border: none;">
+  <table>
+    <tr>
       ${generateCard(recentRepos[0])}
       ${generateCard(recentRepos[1])}
     </tr>
-    <tr style="border: none;">
+    <tr>
       ${generateCard(recentRepos[2])}
       ${generateCard(recentRepos[3])}
     </tr>

@@ -88,18 +88,14 @@ Engenheiro de Software e Gestor de Projetos focado em **resultados**. Com sólid
 
 <div align="center">
 <!-- RECENT_REPOS_START -->
-  <table style="border: none;">
-    <tr style="border: none;">
-      
-      <td style="border: none;"><a href="https://github.com/micaiasviola/ECQUA-360"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=ECQUA-360&theme=tokyonight&border_radius=10" alt="ECQUA-360" /></a></td>
-      
-      <td style="border: none;"><a href="https://github.com/micaiasviola/ECQUA-PAGE"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=ECQUA-PAGE&theme=tokyonight&border_radius=10" alt="ECQUA-PAGE" /></a></td>
+  <table>
+    <tr>
+      <td><a href="https://github.com/micaiasviola/ECQUA-360"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=ECQUA-360&theme=tokyonight&border_radius=10" alt="ECQUA-360" /></a></td>
+      <td><a href="https://github.com/micaiasviola/ECQUA-PAGE"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=ECQUA-PAGE&theme=tokyonight&border_radius=10" alt="ECQUA-PAGE" /></a></td>
     </tr>
-    <tr style="border: none;">
-      
-      <td style="border: none;"><a href="https://github.com/micaiasviola/AppVistoriaEcqua"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=AppVistoriaEcqua&theme=tokyonight&border_radius=10" alt="AppVistoriaEcqua" /></a></td>
-      
-      <td style="border: none;"><a href="https://github.com/micaiasviola/PLANILHA-OBRAS-GERAL"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=PLANILHA-OBRAS-GERAL&theme=tokyonight&border_radius=10" alt="PLANILHA-OBRAS-GERAL" /></a></td>
+    <tr>
+      <td><a href="https://github.com/micaiasviola/AppVistoriaEcqua"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=AppVistoriaEcqua&theme=tokyonight&border_radius=10" alt="AppVistoriaEcqua" /></a></td>
+      <td><a href="https://github.com/micaiasviola/PLANILHA-OBRAS-GERAL"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=PLANILHA-OBRAS-GERAL&theme=tokyonight&border_radius=10" alt="PLANILHA-OBRAS-GERAL" /></a></td>
     </tr>
   </table><!-- RECENT_REPOS_END -->
 </div>
@@ -113,7 +109,7 @@ Engenheiro de Software e Gestor de Projetos focado em **resultados**. Com sólid
 ## 📊 **Engineering Metrics**
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=micaiasviola&theme=tokyonight&hide_border=true&background=1a1b26&border_radius=10" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com?user=micaiasviola&theme=tokyonight&hide_border=true&background=1a1b26" alt="GitHub Streak Stats" />
 </p>
 
 <div align="center">
