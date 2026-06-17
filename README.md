@@ -109,7 +109,7 @@ Engenheiro de Software e Gestor de Projetos focado em **resultados**. Com sólid
 ## 📊 **Engineering Metrics**
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=micaiasviola&theme=tokyonight&hide_border=true&background=1a1b26" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com?user=micaiasviola&theme=tokyonight&hide_border=true&background=1a1b26&v=2" alt="GitHub Streak Stats" />
 </p>
 
 <div align="center">
