@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=792783&center=true&vCenter=true&width=600&lines=Building+Scalable+Products;Managing+Agile+Teams;Bridging+Tech+%26+Business;Engineering+High-Performance+Solutions" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=792783&center=true&vCenter=true&width=600&lines=Building+Scalable+Products;Managing+Agile+Teams;Bridging+Tech+%26+Business;Engineering+High-Performance+Solutions" alt="Typing Animation" />
 </p>
 
 <div align="center">
@@ -15,7 +15,7 @@
   **Transforming technical complexity into strategic business value.**  
   São Paulo, Brazil 🇧🇷 • Professional PM & Full-Stack Developer
   
-  [**Portfolio**](#) • [**LinkedIn**](https://www.linkedin.com/in/micaias-viola-12857920a) • [**Contact Me**](mailto:leo.micaias@gmail.com)
+  [**Portfolio**](https://github.com/micaiasviola) • [**LinkedIn**](https://www.linkedin.com/in/micaias-viola-12857920a) • [**Contact Me**](mailto:leo.micaias@gmail.com)
 </div>
 
 ---
@@ -167,7 +167,7 @@ Engenheiro de Software e Gestor de Projetos focado em **resultados**. Com sólid
 <div align="center" style="background: linear-gradient(135deg, rgba(29, 78, 137, 0.08) 0%, rgba(121, 39, 131, 0.08) 100%); padding: 50px; border-radius: 12px;">
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=2000&color=792783&center=true&vCenter=true&width=800&lines=Cogito,+ergo+sum...;O+que+não+me+mata,+me+fortalece.;Conhece-te+a+ti+mesmo.;Amor+Fati:+Ame+o+seu+destino.;Vincere+scire+est...;A+vida+sem+exames+não+vale+a+pena+ser+vivida." alt="Philosophy Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=2000&color=792783&center=true&vCenter=true&width=800&lines=Cogito,+ergo+sum...;O+que+n%C3%A3o+me+mata,+me+fortalece.;Conhece-te+a+ti+mesmo.;Amor+Fati:+Ame+o+seu+destino.;Vincere+scire+est...;A+vida+sem+exames+n%C3%A3o+vale+a+pena+ser+vivida." alt="Philosophy Animation" />
 </p>
 
 <br/>
