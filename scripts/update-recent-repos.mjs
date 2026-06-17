@@ -8,7 +8,7 @@ import path from 'path';
 
 async function updateRecentRepos() {
     const username = 'micaiasviola';
-    const apiUrl = `https://api.github.com/users/${username}/repos?sort=pushed&direction=desc&per_page=10`;
+    const apiUrl = `https://api.github.com/users/${username}/repos?sort=pushed&direction=desc&per_page=100`;
     const token = process.env.GITHUB_TOKEN;
 
     try {
@@ -23,9 +23,11 @@ async function updateRecentRepos() {
 
         const repos = await response.json();
         
-        // Filter for public and non-fork repositories
+        // Filter for public and non-fork repositories.
+        // The workflow runs with GITHUB_TOKEN, so the API also returns private repos;
+        // we must exclude them since github-readme-stats cannot render private repo cards.
         const recentRepos = repos
-            .filter(repo => !repo.fork && repo.name !== username) // Avoid showing the profile README as a card if possible
+            .filter(repo => !repo.fork && !repo.private && repo.name !== username)
             .slice(0, 4);
 
         if (recentRepos.length < 4) {
