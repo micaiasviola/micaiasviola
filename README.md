@@ -2,9 +2,9 @@
 <!-- ECQUA-360 SELF-DRAWING BACKDROP (animated SVG) -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
-<p align="center">
+<!--<p align="center">
   <img src="https://raw.githubusercontent.com/micaiasviola/micaiasviola/main/svg/ecqua-360-bg.svg" width="100%" alt="ECQUA 360 — animated technical backdrop" />
-</p>
+</p>-->
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 <!-- PREMIER CYBER-FUSION HEADER - FLUID & PROFESSIONAL -->
