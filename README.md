@@ -30,7 +30,7 @@
 
   <br/><br/>
 
-  <img src="https://komarev.com/ghpvc/?username=micaiasviola&color=792783&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img  src="https://komarev.com/ghpvc/?username=micaiasviola&color=792783&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />![Profile Views](https://komarev.com)
   <img src="https://img.shields.io/github/followers/micaiasviola?label=FOLLOWERS&style=for-the-badge&logo=github&color=1d4e89" alt="Followers" />
   <img src="https://img.shields.io/github/stars/micaiasviola?label=TOTAL+STARS&style=for-the-badge&logo=github&color=4c2a85" alt="Total Stars" />
 
