@@ -24,7 +24,7 @@
   <a href="https://discord.com/users/355140955168440330">
     <img src="https://img.shields.io/badge/Discord-DM%20me-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
-  <a href="https://micaiasviola.github.io">
+  <a href="https://trilha-one.vercel.app/?projeto=trilha">
     <img src="https://trilha-one.vercel.app" alt="Portfolio" />
   </a>
 
