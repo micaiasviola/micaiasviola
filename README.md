@@ -25,7 +25,7 @@
     <img src="https://img.shields.io/badge/Discord-DM%20me-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
   <a href="https://micaiasviola.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-micaiasviola.github.io-792783?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" />
+    <img src="https://trilha-one.vercel.app" alt="Portfolio" />
   </a>
 
   <br/><br/>
