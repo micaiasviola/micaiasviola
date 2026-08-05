@@ -70,7 +70,7 @@ import path from 'path';
     // Replace multiple possible locations of the stats lines
     // Patterns for new format: "- 📌 Streak: **X dias**"
     content = content.replace(/(📌\s*Streak:)\s*\*\*[^*]+\*\*/i, `$1 **${streak} dias**`);
-    content = content.replace(/(⭐\s*Best:)\s*\*\*[^*]+\*\*/i, `$1 **${max} dias**`);
+    content = content.replace(/(⭐\s*Best:)\s*\*\*[^*]+\*\*/i, `$1 **${max}/dia**`);
     content = content.replace(/(⚡\s*Média:)\s*\*\*[^*]+\*\*/i, `$1 **~${avg}\/dia**`);
 
     // Also try old format patterns as fallback
