@@ -7,7 +7,7 @@
   <g style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; font-size: 12px; fill: #24292e;">
     <text x="8" y="16">Streak: 14 days</text>
     <text x="150" y="16">Max: 163/day</text>
-    <text x="280" y="16">Avg: 4.9</text>
+    <text x="280" y="16">Avg: 5</text>
   </g>
   <g transform="scale(4) translate(12, 0)">
     <g transform="translate(0, 0)">
@@ -2051,12 +2051,19 @@
         <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,8 0,7 z"/>
         <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,7 1.7,8 z"/>
       </g>
-      <g transform="translate(-8.5, 6.067484662576687)">
+      <g transform="translate(-8.5, 5.773006134969325)">
         <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-        <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,6.932515337423313 0,5.932515337423313 z"/>
-        <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,5.932515337423313 1.7,6.932515337423313 z"/>
+        <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,7.226993865030675 0,6.226993865030675 z"/>
+        <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,6.226993865030675 1.7,7.226993865030675 z"/>
       </g>
-      <g transform="translate(-10.2, 12)">
+      <g transform="translate(-10.2, 10.49079754601227)">
+        <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+        <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.5092024539877302 0,2.5092024539877302 z"/>
+        <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.5092024539877302 1.7,3.5092024539877302 z"/>
+      </g>
+    </g>
+    <g transform="translate(112.2, 66)">
+      <g transform="translate(0, 6)">
         <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
         <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
         <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
