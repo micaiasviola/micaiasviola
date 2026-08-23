@@ -218,34 +218,11 @@ timeline
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b26&border_radius=10&include_all_commits=true&rank_icon=github" />
     <img src="https://github-readme-stats.vercel.app/api?username=micaiasviola&show_icons=true&hide_border=true&border_radius=10&include_all_commits=true&rank_icon=github" alt="GitHub Stats" height="180" />
   </picture>
-<<<<<<< HEAD
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26&border_radius=10&langs_count=10" />
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&hide_border=true&border_radius=10&langs_count=10" alt="Top Languages" height="180" />
   </picture>
 </div>
-||||||| parent of 1e305f1 (Arrumei os streaks,badges,trophies)
-</td>
-<td width="45%" align="center" valign="top">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26&border_radius=10&langs_count=10" />
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&hide_border=true&border_radius=10&langs_count=10" alt="Top Languages" width="100%" />
-  </picture>
-</td>
-</tr>
-</table>
-=======
-</td>
-<td width="45%" align="center" valign="top">
-  <img
-    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=micaiasviola&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26&border_radius=10&langs_count=10"
-    alt="Top Languages"
-    width="100%"
-  />
-</td>
-</tr>
-</table>
->>>>>>> 1e305f1 (Arrumei os streaks,badges,trophies)
 
 <p align="center">
   <picture>
@@ -288,23 +265,10 @@ timeline
 ## 🏆 Achievements
 
 <p align="center">
-<<<<<<< HEAD
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=micaiasviola&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" />
     <img src="https://github-profile-trophy.vercel.app/?username=micaiasviola&theme=flat&no-frame=true&margin-w=8&column=7" alt="GitHub Trophies" />
   </picture>
-||||||| parent of 1e305f1 (Arrumei os streaks,badges,trophies)
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.vercel.app/?username=micaiasviola&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4" />
-    <img src="https://github-trophies.vercel.app/?username=micaiasviola&theme=flat&no-frame=true&margin-w=8&margin-h=8&column=4" alt="GitHub Trophies" />
-  </picture>
-=======
-  <img
-    src="https://github-profile-trophy.vercel.app/?username=micaiasviola&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4"
-    alt="GitHub Trophies"
-    width="100%"
-  />
->>>>>>> 1e305f1 (Arrumei os streaks,badges,trophies)
 </p>
 
 ---
