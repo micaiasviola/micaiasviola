@@ -298,8 +298,8 @@ timeline
 <!-- RECENT_REPOS_START -->
   <table>
     <tr>
-      <td><a href="https://github.com/micaiasviola/LINUXCONFIGS"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=LINUXCONFIGS&theme=tokyonight&border_radius=10" alt="LINUXCONFIGS" /></a></td>
       <td><a href="https://github.com/micaiasviola/Trilha"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=Trilha&theme=tokyonight&border_radius=10" alt="Trilha" /></a></td>
+      <td><a href="https://github.com/micaiasviola/LINUXCONFIGS"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=LINUXCONFIGS&theme=tokyonight&border_radius=10" alt="LINUXCONFIGS" /></a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/micaiasviola/DeppScrollable"><img src="https://github-readme-stats.vercel.app/api/pin/?username=micaiasviola&repo=DeppScrollable&theme=tokyonight&border_radius=10" alt="DeppScrollable" /></a></td>
