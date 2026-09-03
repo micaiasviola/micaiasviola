@@ -95,9 +95,9 @@ Engenheiro de Software e Gestor de Projetos focado em **resultados**. Programo d
 
 ### 🔥 Ritmo de entrega
 
-- 📌 Streak: **24 dias** de contribuições consecutivas
+- 📌 Streak: **25 dias** de contribuições consecutivas
 - ⭐ Best: **206/dia** — recorde em um único dia
-- ⚡ Média: **~7.9/dia** de contribuições no ano
+- ⚡ Média: **~8/dia** de contribuições no ano
 
 <sub>Números extraídos do calendário isométrico e commitados automaticamente pelo workflow `isometric-calendar.yml`.</sub>
 
