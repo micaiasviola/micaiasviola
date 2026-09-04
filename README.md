@@ -95,7 +95,7 @@ Engenheiro de Software e Gestor de Projetos focado em **resultados**. Programo d
 
 ### 🔥 Ritmo de entrega
 
-- 📌 Streak: **25 dias** de contribuições consecutivas
+- 📌 Streak: **26 dias** de contribuições consecutivas
 - ⭐ Best: **206/dia** — recorde em um único dia
 - ⚡ Média: **~8/dia** de contribuições no ano
 
